@@ -1,0 +1,21 @@
+{% for featurette in site.data.featurette.featurette %}
+	<div class="featurette" id="{{ featurette.id }}">
+		<div class="container">
+			<div class="content">
+         	<img class="featurette-image  img-responsive col-md-4 col-sm-6 col-xs-12 {{ featurette.pull }}"  src="/img/icons/300/{{ featurette.icon }}" >
+         		<div class="col-md-8 col-sm-6 col-xs-12">
+         			<h2 class="featurette-heading text-left">{{ featurette.title }}
+             			<span class="text-muted ">{{ featurette.sub }}</span>
+         			</h2>
+         			<p class="lead text-left"> {{ featurette.content }} <a class="{{ featurette.link }}">Learn more</a></p>
+         		</div>
+			</div>
+		</div>
+    </div>
+{% endfor %}
+
+		
+
+        
+
+

@@ -1,0 +1,77 @@
+	<script src="/_bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="/_bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- build:js(app) /js/scripts.js -->
+    <script src="/js/main.js"></script>
+    <!-- endbuild -->
+
+<footer>
+	<div class="footer">
+		
+		<div class="container">
+			
+			<div class="col-md-3">
+			 	<h4>ABOUT</h4>
+			 	<p>
+			 		Grenada Solar Research Institute for Technology Promotion and Transfer, innovation, scientific demonstrations, and Scientific research. Affiliates / Independent International Research
+			 	</p>
+			</div>
+
+			<ul class="list-group col-md-3">
+			  <li class="list-group-item">Cras justo odio</li>
+			  <li class="list-group-item">Dapibus ac facilisis in</li>
+			  <li class="list-group-item">Morbi leo risus</li>
+			  <li class="list-group-item">Porta ac consectetur ac</li>
+			  <li class="list-group-item">Vestibulum at eros</li>
+			</ul>
+
+			<div class="col-md-3">
+			  	<ul class="nav nav-pills nav-stacked">
+			  	{% for main in site.data.mainmenu.main %}
+				  <li role="presentation"><a href="{{ main.link }}">{{ main.title }}</a></li>
+				{% endfor %}
+				</ul>
+			</div>
+
+			<div class="col-md-3">
+			  	<address>
+				  <h4>GSETRI</h4><br>
+				  Grenada La. Taste, St. Patrick’s <br>
+				  PO BOX 469, <br> 
+				  Burms Point, St. George. Grenada.WI <br>
+				  <abbr title="Phone">P:</abbr> 1 (473) 537-4528
+				</address>
+
+				<address>
+				  <strong>Grenada Solar Energy Technology Research Institute</strong><br>
+				  <a href="mailto:#">gsetricaribbean@gmail.com</a>
+				</address>
+			</div>
+
+		</div>
+
+	</div>
+	<nav class="navbar-inverse" role="navigation">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed hidden-xs" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <p class="navbar-text">Copyright © 2014 GSETRI All Rights Reserved</p>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse hidden-sm" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        {% for main in site.data.mainmenu.main %}
+        <li><a href="{{ main.link }}">{{ main.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</footer>
