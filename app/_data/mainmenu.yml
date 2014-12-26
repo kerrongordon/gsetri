@@ -1,6 +1,4 @@
 
-
-
 main:
 - {title: 'Home',
    link: '/'}
@@ -9,7 +7,7 @@ main:
    link: '/news/'}
 
 - {title: 'Projects',
-   link: ''}
+   link: '/projects/'}
 
 - {title: 'Departments',
    link: ''}
@@ -19,3 +17,6 @@ main:
 
 - {title: 'Contact',
    link: ''}
+
+
+
