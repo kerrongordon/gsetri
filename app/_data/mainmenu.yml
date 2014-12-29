@@ -1,22 +1,71 @@
 
 main:
 - {title: 'Home',
-   link: '/'}
+   link: '/',
+   icon: 'home'}
 
 - {title: 'News',
-   link: '/news/'}
+   link: '/news/',
+   icon: 'newspaper-o'}
 
 - {title: 'Projects',
-   link: '/projects/'}
+   link: '/projects/',
+   icon: 'bar-chart'}
 
 - {title: 'Departments',
-   link: ''}
+   link: '',
+   icon: 'building'}
 
 - {title: 'About',
-   link: ''}
+   link: '',
+   icon: 'users'}
 
 - {title: 'Contact',
-   link: ''}
+   link: '',
+   icon: 'comments'}
+
+
+
+projectsmenu:
+- {title: 'Events',
+   link: '/',
+   icon: 'home'}
+
+- {title: 'Promotions',
+   link: '/',
+   icon: 'home'}
+
+- {title: 'RE-Projects',
+   link: '/',
+   icon: 'home'}
+
+
+- {title: 'Affiliates',
+   link: '/',
+   icon: 'home'}
+
+
+- {title: 'Education',
+   link: '/',
+   icon: 'home'}
+
+
+- {title: 'Solar Solution',
+   link: '/',
+   icon: 'home'}
+
+
+- {title: 'Renewable Energy',
+   link: '/',
+   icon: 'home'}
+
+
+- {title: 'Energy Research',
+   link: '/',
+   icon: 'home'}
+
+
+
 
 
 

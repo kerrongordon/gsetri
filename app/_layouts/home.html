@@ -1,16 +1,9 @@
-<!DOCTYPE html>
-<html>
-   {% include head.html %}
-    <body>
-      {% include main-menu.html %}
-      {% include hero.html %}
-      {% include home.html %}
-
-        
-
-          {{ content }}
+---
+layout: default
+---
+      
+{% include hero.html %}
+{% include home.html %}
+  {{ content }}
 
           
-        {% include footer.html %}
-    </body>
-</html>

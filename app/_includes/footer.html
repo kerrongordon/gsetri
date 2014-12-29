@@ -9,43 +9,47 @@
 	<div class="footer">
 		
 		<div class="container">
+
+			<div class="row">
 			
-			<div class="col-md-3">
-			 	<h4>ABOUT</h4>
-			 	<p>
-			 		Grenada Solar Research Institute for Technology Promotion and Transfer, innovation, scientific demonstrations, and Scientific research. Affiliates / Independent International Research
-			 	</p>
-			</div>
+				<div class="col-md-3">
+				 	<h4><i class="fa fa-users"></i> About</h4>
+				 	<p>
+				 		Grenada Solar Research Institute for Technology Promotion and Transfer, innovation, scientific demonstrations, and Scientific research. Affiliates / Independent International Research
+				 	</p>
+				</div>
 
-			<ul class="list-group col-md-3">
-			  <li class="list-group-item">Cras justo odio</li>
-			  <li class="list-group-item">Dapibus ac facilisis in</li>
-			  <li class="list-group-item">Morbi leo risus</li>
-			  <li class="list-group-item">Porta ac consectetur ac</li>
-			  <li class="list-group-item">Vestibulum at eros</li>
-			</ul>
+				<div class="col-md-3 hidden-sm hidden-xs">
+				 	<h4><i class="fa fa-facebook"></i> Facebook</h4>
 
-			<div class="col-md-3">
-			  	<ul class="nav nav-pills nav-stacked">
-			  	{% for main in site.data.mainmenu.main %}
-				  <li role="presentation"><a href="{{ main.link }}">{{ main.title }}</a></li>
-				{% endfor %}
-				</ul>
-			</div>
+				 	{% include facebook.html %}
 
-			<div class="col-md-3">
-			  	<address>
-				  <h4>Contact Us</h4>
-				  Grenada La. Taste, St. Patrick’s <br>
-				  PO BOX 469, <br> 
-				  Burms Point, St. George. Grenada.WI <br>
-				  <abbr title="Phone">P:</abbr> 1 (473) 537-4528
-				</address>
+				</div>
 
-				<address>
-				  <strong>Grenada Solar Energy Technology Research Institute</strong><br>
-				  <a href="mailto:#">gsetricaribbean@gmail.com</a>
-				</address>
+				<div class="col-md-3 hidden-sm hidden-xs">
+					<h4><i class="fa fa-bar-chart"></i> Projects</h4>
+				  	<ul class="nav nav-pills ">
+				  	{% for projectsmenu in site.data.mainmenu.projectsmenu %}
+					  <li role="presentation"><a href="{{ projectsmenu.link }}">{{ projectsmenu.title }}</a></li>
+					{% endfor %}
+					</ul>
+				</div>
+
+				<div class="col-md-3">
+				  	<address>
+					  <h4><i class="fa fa-comments"></i> Contact Us</h4>
+					  Grenada La. Taste, St. Patrick’s <br>
+					  PO BOX 469, <br> 
+					  Burms Point, St. George. Grenada.WI <br>
+					  <abbr title="Phone"> P: </abbr> 1 (473) 537-4528  
+					</address>
+
+					<address>
+					  <strong>Grenada Solar Energy Technology Research Institute</strong><br>
+					  <a href="mailto:#">gsetricaribbean@gmail.com</a>
+					</address>
+				</div>
+
 			</div>
 
 		</div>
@@ -68,7 +72,7 @@
     <div class="collapse navbar-collapse hidden-sm" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         {% for main in site.data.mainmenu.main %}
-        <li><a href="{{ main.link }}">{{ main.title }}</a></li>
+        <li><a href="{{ main.link }}"><i class="fa fa-{{ main.icon }}" title="{{ main.title }}"></i></a></li>
         {% endfor %}
       </ul>
     </div><!-- /.navbar-collapse -->

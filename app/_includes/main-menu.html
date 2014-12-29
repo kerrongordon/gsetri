@@ -15,7 +15,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         {% for main in site.data.mainmenu.main %}
-        <li><a href="{{ main.link }}">{{ main.title }}</a></li>
+        <li><a href="{{ main.link }}"><i class="fa fa-{{ main.icon }}"></i> {{ main.title }}</a></li>
         {% endfor %}
       </ul>
     </div><!-- /.navbar-collapse -->
