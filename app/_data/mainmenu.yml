@@ -21,7 +21,7 @@ main:
    icon: 'users'}
 
 - {title: 'Contact',
-   link: '',
+   link: '/contact/',
    icon: 'comments'}
 
 

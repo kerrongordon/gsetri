@@ -2,6 +2,8 @@
   "name": "gsetri",
   "version": "0.0.0",
   "dependencies": {
-    "bootstrap": "~3.3.1"
+    "bootstrap": "~3.3.1",
+    "fontawesome": "~4.2.0",
+    "underscore": "~1.7.0"
   }
 }

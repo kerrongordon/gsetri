@@ -3,7 +3,39 @@ body {
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
-  padding-top: 51px;
+  //padding-top: 51px;
 }
 
+i {
+	color: #2ecc71;
+}
+
+.navbar {
+	margin-top: 20px;
+
+	a {
+		color: #555;
+	}
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+	text-decoration: none;
+	background-color: transparent;
+	box-shadow: 0px 2px 0px 0px #60A531;
+}
+
+
 @import "elements/index";
+
+//contact form
+
+.main-form {
+	margin-top: -200px;
+	background: #fff;
+	z-index: 300;
+	padding: 30px;
+
+	textarea {
+		height: 200px;
+	}
+}
