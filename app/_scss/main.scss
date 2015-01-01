@@ -6,6 +6,17 @@ body {
   //padding-top: 51px;
 }
 
+//var 
+
+$acent-color-1: #2c3e50;
+$acent-color-2: #34495e;
+
+.lead {
+	font-size: 1.6rem;
+	line-height: 1.5em;
+	color: #444;
+}
+
 i {
 	color: #2ecc71;
 }
@@ -24,6 +35,27 @@ i {
 	box-shadow: 0px 2px 0px 0px #60A531;
 }
 
+.nav .active {
+	text-decoration: none;
+	background-color: transparent;
+	box-shadow: 0px 2px 0px 0px #60A531;
+}
+
+
+.nav-pills {
+
+	li>a {
+		position: relative;
+		display: block;
+		padding: 15px 7px;
+		color: #ccc;
+
+		&:hover {
+			color: #fff;
+			box-shadow: none;
+		}
+	}
+}
 
 @import "elements/index";
 
@@ -38,4 +70,38 @@ i {
 	textarea {
 		height: 200px;
 	}
+}
+
+//top main menu bar
+
+.navbar-header .navbar-toggle {
+	background: rgba(0, 0, 0, 0.1);
+	border-radius: 0;
+}
+
+.navbar-toggle .icon-bar {
+	background: #555;
+}
+
+//breadcrumb 
+
+.breadcrumb-bar {
+	width: 100%;
+	background-color: $acent-color-1;
+	padding: 15px 0px;
+}
+
+.breadcrumb {
+	margin-bottom: 0;
+	border-radius: 0;
+	text-align: left;
+	background-color: $acent-color-1;
+
+	a, span {
+		color: #fff;
+	}
+}
+
+.space {
+	margin: 60px 0;
 }

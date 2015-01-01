@@ -1,0 +1,10 @@
+<div class="breadcrumb-bar">	
+	<div class="container">
+		<ol class="breadcrumb">
+		  <span>You Are Here: </span> <li><a href="#">Home</a></li>
+		  {% if page.title == 'Contact' or page.title == 'Projects' or page.title == 'News' or page.title == 'About' %}
+		    <li><a href="#">{{ page.title }}</a></li>
+		  {% endif %}
+		</ol>
+	</div>
+</div>

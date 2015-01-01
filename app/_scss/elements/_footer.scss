@@ -1,16 +1,21 @@
 .footer {
-	background-color: #2b2b2b;
+	background-color: $acent-color-2;
 	padding: 60px 0;
 	text-align: left;
 	color: #ccc;
 
 	h4 {
 		padding-bottom: 15px;
-		border-bottom: solid 1px;
+		//border-bottom: solid 1px;
 	}
 
 	p {
 		font-size: 14px;
 		line-height: 1.5em;
 	}
+}
+
+.navbar-inverse {
+	background-color: $acent-color-1;
+	border-color: #080808;
 }

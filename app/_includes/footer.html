@@ -1,8 +1,9 @@
 	
     <!-- build:js(app) /js/scripts.js -->
-    <script src="/js/main.js"></script>
-    <script src="/_bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="/_bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="{{ site.baseurl }}/_bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/_bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="{{ site.baseurl }}/_bower_components/wowjs/dist/wow.min.js"></script>
+    <script src="{{ site.baseurl }}/js/main.js"></script>
     <!-- endbuild -->
 
 <footer>
@@ -12,30 +13,24 @@
 
 			<div class="row">
 			
-				<div class="col-md-3">
+				<div class="col-md-4">
 				 	<h4><i class="fa fa-users"></i> About</h4>
 				 	<p>
 				 		Grenada Solar Research Institute for Technology Promotion and Transfer, innovation, scientific demonstrations, and Scientific research. Affiliates / Independent International Research
 				 	</p>
 				</div>
 
-				<div class="col-md-3 hidden-sm hidden-xs">
-				 	<h4><i class="fa fa-facebook"></i> Facebook</h4>
-
-				 	{% include facebook.html %}
-
-				</div>
-
-				<div class="col-md-3 hidden-sm hidden-xs">
+				
+				<div class="col-md-4">
 					<h4><i class="fa fa-bar-chart"></i> Projects</h4>
 				  	<ul class="nav nav-pills ">
 				  	{% for projectsmenu in site.data.mainmenu.projectsmenu %}
-					  <li role="presentation"><a href="{{ projectsmenu.link }}">{{ projectsmenu.title }}</a></li>
+					  <li role="presentation"><a href="{{ site.baseurl }}/{{ projectsmenu.link }}">{{ projectsmenu.title }}</a></li>
 					{% endfor %}
 					</ul>
 				</div>
 
-				<div class="col-md-3">
+				<div class="col-md-4">
 				  	<address>
 					  <h4><i class="fa fa-comments"></i> Contact Us</h4>
 					  Grenada La. Taste, St. Patrick’s <br>
@@ -72,7 +67,7 @@
     <div class="collapse navbar-collapse hidden-sm" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         {% for main in site.data.mainmenu.main %}
-        <li><a href="{{ main.link }}"><i class="fa fa-{{ main.icon }}" title="{{ main.title }}"></i></a></li>
+        <li><a href="{{ site.baseurl }}/{{ main.link }}"><i class="fa fa-{{ main.icon }}" title="{{ main.title }}"></i></a></li>
         {% endfor %}
       </ul>
     </div><!-- /.navbar-collapse -->
