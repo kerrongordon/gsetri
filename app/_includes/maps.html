@@ -19,4 +19,15 @@
 	<a class="google-map-code" href="http://www.trivoo.net/gutscheine/goertz/" id="get-map-data">goertz gutschein</a>
 </div>
 
-<script type="text/javascript"> function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(40.805478,-73.96522499999998),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(40.805478, -73.96522499999998)});infowindow = new google.maps.InfoWindow({content:"<b>The Breslin</b><br/>2880 Broadway<br/> New York" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+<script type="text/javascript"> 
+    function init_map(){
+        var myOptions = {zoom:17,center:new google.maps.LatLng({{ site.data.contact.Latitude }}, {{ site.data.contact.Longitude }} ),
+            mapTypeId: google.maps.MapTypeId.ROADMAP};
+            map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
+            marker = new google.maps.Marker({map: map,position: new google.maps.LatLng({{ site.data.contact.Latitude }}, {{ site.data.contact.Longitude }} )});
+            infowindow = new google.maps.InfoWindow({
+                content:"<b>{{ site.data.contact.company }}</b><br/>PO BOX: {{ site.data.contact.pobox }}<br/> {{ site.data.contact.city }}" 
+            });
+            google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});
+            infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
+</script>

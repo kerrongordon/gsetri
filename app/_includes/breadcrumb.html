@@ -6,8 +6,14 @@
 		    <li><a href="#">{{ page.title }}</a></li>
 		  {% endif %}
 
-		{% if page.path == 'Projects' %}
+		  {% if page.path == 'Projects' %}
 			<li><a href="#">{{ page.path }}</a></li>
+		    <li><a href="#">{{ page.title }}</a></li>
+		  {% endif %}
+
+		  {% if page.categories == 'energy-research' %}
+		  	<li><a href="#">Projects</a></li>
+			<li><a href="#">Energy Research</a></li>
 		    <li><a href="#">{{ page.title }}</a></li>
 		  {% endif %}
 

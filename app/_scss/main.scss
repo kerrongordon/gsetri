@@ -1,15 +1,18 @@
+//var 
+
+$main-acent-color: #2ecc71;
+$acent-color-1: #2c3e50;
+$acent-color-2: #34495e;
+
+
 body {
-  background-color: #FFF;
+  background: #FFF;
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
-  //padding-top: 51px;
 }
 
-//var 
 
-$acent-color-1: #2c3e50;
-$acent-color-2: #34495e;
 
 .lead {
 	font-size: 1.6rem;
@@ -29,6 +32,7 @@ i {
 	}
 }
 
+
 .nav>li>a:hover, .nav>li>a:focus {
 	text-decoration: none;
 	background-color: transparent;
@@ -40,6 +44,23 @@ i {
 	background-color: transparent;
 	box-shadow: 0px 2px 0px 0px #60A531;
 }
+
+@media (max-width: 767px)  {
+
+	.nav li>a:hover, li>a:focus {
+		text-decoration: none;
+		background-color: #60A531;
+		box-shadow: none;
+	}
+
+	.nav .active {
+		text-decoration: none;
+		background-color: #60A531;
+		box-shadow: none;
+	}
+}
+
+
 
 
 .nav-pills {
@@ -112,6 +133,10 @@ i {
 	border: none;
 }
 
+.dep .thumbnail img {
+	max-width: 250px;
+}
+
 /// about 
 
 .about {
@@ -119,5 +144,23 @@ i {
 	img {
 		max-height: 300px;
 		padding: 20px;
+	}
+}
+
+
+//ermenu
+
+.nav-pills>li>a {
+	font-size: 1.04rem;
+	padding: 10px 5px;
+	display: block;
+}
+
+.ermenu {
+	background-color: $acent-color-1;
+	padding: 10px 0;
+
+	.active {
+		box-shadow: none;
 	}
 }

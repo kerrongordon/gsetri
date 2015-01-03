@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+   {% include head.html %}
+    <body>
+      {% include main-menu.html %}
+       {% include breadcrumb.html %}
+       <div class="page-heading {{ page.img }}">
+			<div class="container">
+				<h1>{{ page.title }}</h1>
+			</div>
+		</div>
+
+		{% include ermenu.html %}
+		
+		<section class="space">
+			<div class="container">
+	           {{ content }}
+	        </div>
+		</section>
+          
+        {% include footer.html %}
+    </body>
+</html>

@@ -5,7 +5,6 @@
     <script src="{{ site.baseurl }}/_bower_components/wowjs/dist/wow.min.js"></script>
     <script src="{{ site.baseurl }}/js/main.js"></script>
     <!-- endbuild -->
-
 <footer>
 	<div class="footer">
 		
@@ -33,15 +32,15 @@
 				<div class="col-md-4">
 				  	<address>
 					  <h4><i class="fa fa-comments"></i> Contact Us</h4>
-					  Grenada La. Taste, St. Patrick’s <br>
-					  PO BOX 469, <br> 
-					  Burms Point, St. George. Grenada.WI <br>
-					  <abbr title="Phone"> P: </abbr> 1 (473) 537-4528  
+					  {{ site.data.contact.country }} <br>
+					  PO BOX {{ site.data.contact.pobox }}, <br> 
+					  {{ site.data.contact.city }}.{{ site.data.contact.country }}.WI <br>
+					  <abbr title="Phone"> P: </abbr> {{ site.data.contact.phone }}  
 					</address>
 
 					<address>
-					  <strong>Grenada Solar Energy Technology Research Institute</strong><br>
-					  <a href="mailto:#">gsetricaribbean@gmail.com</a>
+					  <strong>{{ site.data.contact.company }}</strong><br>
+					  <a href="mailto:{{ site.data.contact.email }}">{{ site.data.contact.email }}</a>
 					</address>
 				</div>
 
