@@ -4,7 +4,7 @@ title:  "Static electricity"
 categories: energy-research
 sub: projects
 path: static-electricity
-img: about-img
+img: static-electricity-img
 ---
 
 

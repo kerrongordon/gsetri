@@ -4,7 +4,7 @@ title:  "Nuclear Power"
 categories: energy-research
 sub: projects
 path: nuclear-power
-img: about-img
+img: nuclear-power-img
 ---
 
 
