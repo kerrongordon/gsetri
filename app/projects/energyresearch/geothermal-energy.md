@@ -4,7 +4,7 @@ title:  "Geothermal Energy"
 categories: energy-research
 sub: projects
 path: geothermal-energy
-img: about-img
+img: geothermal-energy-img
 ---
 
 

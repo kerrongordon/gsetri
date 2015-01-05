@@ -4,7 +4,7 @@ title:  "Hydro Power or Water Power"
 categories: energy-research
 sub: projects
 path: hydro-power
-img: about-img
+img: hydro-power-img
 ---
 
 

@@ -34,7 +34,7 @@ Installed solar PV in BC costs around $3 per watt, compared to $6-8 five years a
 One Vancouver PV installer has quoted $12k for a 3kW bulk purchase if a group of 30 owners lived relatively close to each other.
 </p>
 </div>
-<img class="col-md-12 col-sm-12 col-xs-12" src="{{ site.baseurl }}/img/HOW-SOLAR-WORKS2.png" alt="">
+<img class="col-md-12 col-sm-12 col-xs-12" src="{{ site.baseurl }}/img/energyresearch/HOW-SOLAR-WORKS2.png" alt="">
 
 </div>
 

@@ -4,7 +4,7 @@ title:  "Cogeneration Power"
 categories: energy-research
 sub: projects
 path: cogeneration-power
-img: about-img
+img: cogeneration-power-img
 ---
 
 

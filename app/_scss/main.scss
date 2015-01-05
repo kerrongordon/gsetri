@@ -10,6 +10,7 @@ body {
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
+
 }
 
 
@@ -169,24 +170,53 @@ i {
 //page img 
 
 .static-electricity-img {
-	background: url(/img/static-electricity.jpg) 50% 80% /cover no-repeat;
+	background: url(/img/energyresearch/static-electricity.jpg) 50% 80% /cover no-repeat;
 	color: #fff;
 	text-shadow: 1px 1px 1px #000;
 }
 .nuclear-power-img {
-	background: url(/img/nuclear-power.jpg) 50% 50% /cover no-repeat;
+	background: url(/img/energyresearch/nuclear-power.jpg) 50% 50% /cover no-repeat;
 	color: #fff;
 	text-shadow: 1px 1px 1px #000;
 }
 .biological-power-img {
-	background: url(/img/biological-power.jpg) 50% 50% /cover no-repeat;
+	background: url(/img/energyresearch/biological-power.jpg) 50% 50% /cover no-repeat;
 	color: #fff;
 	text-shadow: 1px 1px 1px #000;
 }
 .tidal-power-img {
-	background: url(/img/tidal-power.jpg) 50% 100% /cover no-repeat;
+	background: url(/img/energyresearch/tidal-power.jpg) 50% 100% /cover no-repeat;
 	color: #fff;
 	text-shadow: 1px 1px 1px #000;
 }
-
+.geothermal-energy-img {
+	background: url(/img/energyresearch/geothermal-energy.jpg) 50% 100% /cover no-repeat;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+}
+.cogeneration-power-img {
+	background: url(/img/energyresearch/cogeneration-power.jpg) 50% 50% /cover no-repeat;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+}
+.biomass-and-biogas-power-img {
+	background: url(/img/energyresearch/biomass-and-biogas-power.jpg) 50% 50% /cover no-repeat;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+}
+.waste-to-energy-power-img {
+	background: url(/img/energyresearch/waste-to-energy-power.jpg) 50% 50% /cover no-repeat;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+}
+.hydro-power-img {
+	background: url(/img/energyresearch/hydro-power.jpg) 50% 20% /cover no-repeat;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+}
+.wind-power-img {
+	background: url(/img/energyresearch/wind-power.jpg) 50% 50% /cover no-repeat;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+}
 

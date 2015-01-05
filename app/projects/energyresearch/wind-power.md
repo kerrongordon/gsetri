@@ -4,7 +4,7 @@ title:  "Wind Power"
 categories: energy-research
 sub: projects
 path: wind-power
-img: about-img
+img: wind-power-img
 ---
 
 
@@ -33,7 +33,7 @@ In 2012, a team of researchers at Stanford University found that wind power coul
 Globally, depending on the site, wind energy averages a levelized cost of $70 to $120 MWh (7 to 12 cents/kWh).  In British Columbia, because of mountainous and often remote conditions, the levelized cost for most sites is $90 to $150 per MWh. Canada’s Wind Power Production Incentive of 1 cent/kWh was ended in 2011.
 </p>
 </div>
-<img class="col-md-12 col-sm-12 col-xs-12" src="{{ site.baseurl }}/img/Residential_Wind_Turbine_Installation-Illustration.png" alt="">
+<img class="col-md-12 col-sm-12 col-xs-12" src="{{ site.baseurl }}/img/energyresearch/Residential_Wind_Turbine_Installation-Illustration.png" alt="">
 
 </div>
 

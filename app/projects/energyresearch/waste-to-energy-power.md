@@ -4,7 +4,7 @@ title:  "Waste to Energy Power"
 categories: energy-research
 sub: projects
 path: waste-to-energy-power
-img: about-img
+img: waste-to-energy-power-img
 ---
 
 
