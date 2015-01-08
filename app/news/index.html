@@ -14,7 +14,7 @@ title: News
 <div class="container">
 	
 	<div class="news-page">
-		<div class="news col-md-9">
+		<div class="news col-md-8 col-md-offset-2">
 
 			{% for post in site.posts %}
 
@@ -22,23 +22,12 @@ title: News
 				
 				<h3><a href="{{ post.url }}">{{ post.title }}</a> <span class="label label-default">{{ post.date | date_to_string }}</span></h3>
 				<div class="content"><p class="lead">{{ post.excerpt }}</p></div>
-				<div class="pull-right"><a class="btn btn-primary" href="{{ post.url }}" role="button">Read More</a></div>
 				
 			</div>
-
-			<hr class="divider">
 
 			{% endfor %}
 
 		</div>	
-
-		<ul class="list-group col-md-3">
-		  <li class="list-group-item">Cras justo odio</li>
-		  <li class="list-group-item">Dapibus ac facilisis in</li>
-		  <li class="list-group-item">Morbi leo risus</li>
-		  <li class="list-group-item">Porta ac consectetur ac</li>
-		  <li class="list-group-item">Vestibulum at eros</li>
-		</ul><div class="clearfix"></div>	
 	</div>
 
 </div>

@@ -10,31 +10,14 @@ title: Projects
 </div>
 
 
-
+<section class="space">
 <div class="container">
 	
 	<div class="row">
-		
-		<div class="col-md-3 col-sm-6 mr-30"> <img src="{{ site.baseurl }}/img/icons/200/calendar-s.svg" alt=""><h4>Events</h4> <div><a class="btn btn-link" href="{{site.baseurl}}/news/" role="button">Learn more</a></div></div>
-
-		<div class="col-md-3 col-sm-6 mr-30"> <img src="{{ site.baseurl }}/img/icons/200/box-s.svg" alt=""><h4>Promotions and services</h4> <div><a class="btn btn-link" href="{{site.baseurl}}/" role="button">Learn more</a></div></div>
-
-		<div class="col-md-3 col-sm-6 mr-30"> <img src="{{ site.baseurl }}/img/icons/200/projects-s.svg" alt=""><h4>RE-Projects</h4> <div><a class="btn btn-link" href="{{site.baseurl}}/" role="button">Learn more</a></div></div>
-
-		<div class="col-md-3 col-sm-6 mr-30"> <img src="{{ site.baseurl }}/img/icons/200/affiliates-s1.svg" alt=""><h4>Affiliates</h4> <div><a class="btn btn-link" href="{{site.baseurl}}/" role="button">Learn more</a></div></div>
-
-	</div>
-
-	<div class="row">
-		
-		<div class="col-md-3 col-sm-6 mr-30"> <img src="{{ site.baseurl }}/img/icons/200/education-s1.svg" alt=""><h4>Education Programs Demonstration Center</h4> <div><a class="btn btn-link" href="{{site.baseurl}}/" role="button">Learn more</a></div></div>
-
-		<div class="col-md-3 col-sm-6 mr-30"> <img src="{{ site.baseurl }}/img/icons/200/solar-solution-s.svg" alt=""><h4>Solar Solution Commercial and Retail Depo</h4> <div><a class="btn btn-link" href="{{site.baseurl}}/" role="button">Learn more</a></div></div>
-
-		<div class="col-md-3 col-sm-6 mr-30"> <img src="{{ site.baseurl }}/img/icons/200/renewable-energy-s.svg" alt=""><h4>Renewable Energy Technology</h4> <div><a class="btn btn-link" href="{{site.baseurl}}/" role="button">Learn more</a></div></div>
-
-		<div class="col-md-3 col-sm-6 mr-30"> <img src="{{ site.baseurl }}/img/icons/200/energy-research-s.svg" alt=""><h4>Energy Research Product Development and Innovation</h4> <div><a class="btn btn-link" href="{{site.baseurl}}/projects/energyresearch/" role="button">Learn more</a></div></div>
-
+		{% for Projects in site.data.Projects.Projects %}
+		<div class="col-md-3 col-sm-6 mr-30"> <img src="{{ site.baseurl }}/img/icons/200/{{ Projects.icon }}" alt="{{ Projects.title }}"><h4>{{ Projects.title }}</h4> <div><a class="btn btn-link" href="{{site.baseurl}}{{ Projects.link }}" role="button">Learn more</a></div></div>
+		{% endfor %}
 	</div>
 
 </div>
+</section>

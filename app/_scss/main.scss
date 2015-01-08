@@ -6,13 +6,17 @@ $acent-color-2: #34495e;
 
 
 body {
-  background: #FFF;
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
-
+  background-color: #fff;
 }
 
+
+.pageview {
+	margin-top: 0;
+	transition: margin-top .25s ease;
+}
 
 
 .lead {

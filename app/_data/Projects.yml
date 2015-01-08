@@ -1,0 +1,83 @@
+# Projects index page
+
+Projects:
+- {title: 'Events',
+    icon: 'calendar-s.svg',
+    link: '/news/'}
+
+- {title: 'Promotions and services',
+    icon: 'box-s.svg',
+    link: '/'}
+
+- {title: 'RE-Projects',
+    icon: 'projects-s.svg',
+    link: '/'}
+
+- {title: 'Affiliates',
+    icon: 'affiliates-s1.svg',
+    link: '/'}
+
+- {title: 'Education Programs Demonstration Center',
+    icon: 'education-s1.svg',
+    link: '/'}
+
+- {title: 'Solar Solution Commercial and Retail Depo',
+    icon: 'solar-solution-s.svg',
+    link: '/'}
+
+- {title: 'Renewable Energy Technology',
+    icon: 'renewable-energy-s.svg',
+    link: '/'}
+
+- {title: 'Energy Research Product Development and Innovation',
+    icon: 'energy-research-s.svg',
+    link: '/projects/energyresearch/'}
+
+
+#Energy Research Product Development and Innovation index page
+
+
+energyresearch:
+- {title: 'Static electricity',
+    icon: 'static-electricity-s',
+    link: 'static-electricity'}
+
+- {title: 'Nuclear Power',
+    icon: 'nuclear-power-s',
+    link: 'nuclear-power'}
+
+- {title: 'Biological Power',
+    icon: 'biological-power-s',
+    link: 'biological-power'}
+
+- {title: 'Tidal power',
+    icon: 'tidal-power-s',
+    link: 'tidal-power'}
+
+- {title: 'Geothermal energy',
+    icon: 'geothermal-energy-s',
+    link: 'geothermal-energy'}
+
+- {title: 'Cogeneration power',
+    icon: 'heat-and-power-s',
+    link: 'cogeneration-power'}
+
+- {title: 'Biomass and Biogas power',
+    icon: 'biomass-and-biogas-s',
+    link: 'biomass-and-biogas-power'}
+
+- {title: 'Waste to Energy Power',
+    icon: 'waste-to-energy-power-s',
+    link: 'waste-to-energy-power'}
+
+- {title: 'A photovoltaic power station',
+    icon: 'solar-solution-s',
+    link: 'photovoltaic'}
+
+- {title: 'Hydro-power or water power',
+    icon: 'hydro-power-s',
+    link: 'hydro-power'}
+
+- {title: 'Wind power',
+    icon: 'wind-power-s',
+    link: 'wind-power'}
