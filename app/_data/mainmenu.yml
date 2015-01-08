@@ -1,27 +1,27 @@
 
 main:
 - {title: 'Home',
-   link: '/',
+   link: '',
    icon: 'home'}
 
 - {title: 'News',
-   link: '/news/',
+   link: 'news/',
    icon: 'newspaper-o'}
 
 - {title: 'Projects',
-   link: '/projects/',
+   link: 'projects/',
    icon: 'bar-chart'}
 
 - {title: 'Departments',
-   link: '',
+   link: 'departments/',
    icon: 'building'}
 
 - {title: 'About',
-   link: '',
+   link: 'about/',
    icon: 'users'}
 
 - {title: 'Contact',
-   link: '/contact/',
+   link: 'contact/',
    icon: 'comments'}
 
 
