@@ -167,4 +167,19 @@ i {
 }
 
 
+.head-img {
+	background: url(/img/energy-panels.jpg) 50% 50% no-repeat;
+	background-size: cover;
+	color: #fff;
+	box-shadow: 1px 1px #000;
+}
 
+.gototop {
+	position: fixed;
+	width: 100%;
+	background: rgba(255, 255, 255, 0.95);
+	z-index: 999;
+	margin: 0;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.27);
+	border-radius: 0;
+}

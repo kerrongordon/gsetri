@@ -23,7 +23,7 @@ Projects:
 
 - {title: 'Solar Solution Commercial and Retail Depo',
     icon: 'solar-solution-s.svg',
-    link: '/'}
+    link: '/projects/solar-solution/'}
 
 - {title: 'Renewable Energy Technology',
     icon: 'renewable-energy-s.svg',
@@ -81,3 +81,45 @@ energyresearch:
 - {title: 'Wind power',
     icon: 'wind-power-s',
     link: 'wind-power'}
+
+
+#Solar Solution Commercial and Retail Depo index page
+
+
+solarsolution:
+- {title: 'Informational technology',
+    icon: 'informational-technology-s',
+    link: 'informational-technology'}
+
+- {title: 'Transportation applications',
+    icon: 'Transportation-s',
+    link: 'Transportation'}
+
+- {title: 'e Medical solutions',
+    icon: 'e-medical-solutions-s',
+    link: 'e-medical-solutions'}
+
+- {title: 'e Government solutions',
+    icon: 'affiliates-s1',
+    link: ''}
+
+- {title: 'e Educational solutions',
+    icon: 'education-s1',
+    link: ''}
+
+- {title: 'e Agricultural solutions',
+    icon: 'e-agricultural-solutions-s',
+    link: ''}
+
+- {title: 'Commercial applications',
+    icon: 'commercial-applications-s',
+    link: ''}
+
+- {title: 'Home systems',
+    icon: 'home-systems-s',
+    link: ''}
+
+- {title: 'Catalogue links Contacts',
+    icon: 'projects-s',
+    link: ''}
+
