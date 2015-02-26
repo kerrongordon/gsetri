@@ -1,8 +1,12 @@
 //var 
 
 $main-acent-color: #2ecc71;
-$acent-color-1: #2c3e50;
+$acent-color-1: #1B232C;
 $acent-color-2: #34495e;
+$acent-color-3: #3498db;
+
+
+
 
 
 body {
@@ -109,7 +113,8 @@ i {
 
 .breadcrumb-bar {
 	width: 100%;
-	background-color: $acent-color-1;
+	background-color: $main-acent-color;
+	background: linear-gradient(135deg, $main-acent-color, $acent-color-3);
 	padding: 15px 0px;
 }
 
@@ -117,7 +122,7 @@ i {
 	margin-bottom: 0;
 	border-radius: 0;
 	text-align: left;
-	background-color: $acent-color-1;
+	background: transparent;
 
 	a, span {
 		color: #fff;
@@ -155,10 +160,12 @@ i {
 	font-size: 1.04rem;
 	padding: 10px 5px;
 	display: block;
+	color: #fff;
 }
 
 .ermenu {
 	background-color: $acent-color-1;
+	background: linear-gradient(135deg, $main-acent-color, $acent-color-3);
 	padding: 10px 0;
 
 	.active {

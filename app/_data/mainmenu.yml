@@ -4,7 +4,7 @@ main:
    link: '',
    icon: 'home'}
 
-- {title: 'News',
+- {title: 'Events',
    link: 'news/',
    icon: 'newspaper-o'}
 

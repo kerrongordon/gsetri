@@ -1,8 +1,10 @@
 .page-heading {
 	background-color: #37c871;
-	text-align: left;
 	position: relative;
-    background: linear-gradient(135deg, #2ecc71, #3498db);
+    background: linear-gradient(135deg, $main-acent-color, $acent-color-3);
+    text-align: center;
+	color: #fff;
+	text-shadow: 0 0 5px #000;
 
 	h1 {
 		padding: 3.7em 0;
