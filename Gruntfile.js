@@ -289,7 +289,7 @@ module.exports = function (grunt) {
       dist: {
         options: {
           remote: 'git@github.com:kerrongordon/gsetri-website.git',
-          branch: 'master',
+          branch: 'gh-pages',
           commit: true,
           push: true
         }
