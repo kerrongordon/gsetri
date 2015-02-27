@@ -15,13 +15,6 @@ jQuery(document).ready(function($){
 		    }
 		});
 
-		//$('.page-head-bg').remove();
-
-		var images = $('.page-head-bg');
-		  $.each(images, function() {
-		    $(this).removeAttr("src");
-		  });
-
 	} else {
 
 	}
