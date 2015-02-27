@@ -16,16 +16,6 @@ body {
   background-color: #fff;
 }
 
-/* FONT PATH
- * -------------------------- */
-@font-face {
-  font-family: 'FontAwesome';
-  src: url(/_bower_components/fontawesome/fonts/fontawesome-webfont.eot);
-  src: url(/_bower_components/fontawesome/fonts/fontawesome-webfont.eot) format('embedded-opentype'), url(/_bower_components/fontawesome/fonts/fontawesome-webfont.woff) format('woff'), url(/_bower_components/fontawesome/fonts/fontawesome-webfont.ttf) format('truetype'), url(/_bower_components/fontawesome/fonts/fontawesome-webfont.svg) format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
 
 .lead {
 	font-size: 1.6rem;
