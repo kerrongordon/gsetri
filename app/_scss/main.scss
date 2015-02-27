@@ -196,8 +196,9 @@ i {
 
 .page-head-bg {
 	position: absolute;
-	width: 100%;
-	top: -100%;
+	min-width: 100%;
+	min-height: 100%;
+	top: -70%;
 	left: 0;
 	right: 0;
 	bottom: 0;
