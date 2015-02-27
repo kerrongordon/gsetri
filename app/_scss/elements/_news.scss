@@ -5,9 +5,12 @@
     text-align: center;
 	color: #fff;
 	text-shadow: 0 0 5px #000;
+	overflow: hidden;
 
 	h1 {
 		padding: 3.7em 0;
+		position: relative;
+		z-index: 3;
 	}
 }
 
