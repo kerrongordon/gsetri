@@ -31,7 +31,7 @@ Projects:
 
 - {title: 'Energy Research Product Development and Innovation',
     icon: 'energy-research-s.svg',
-    link: '/projects/energyresearch/'}
+    link: '/projects/energy-research/'}
 
 
 #Energy Research Product Development and Innovation index page
@@ -122,4 +122,5 @@ solarsolution:
 - {title: 'Catalogue links Contacts',
     icon: 'projects-s',
     link: 'catalogue-links-contacts'}
+
 
