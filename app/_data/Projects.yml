@@ -3,23 +3,23 @@
 Projects:
 - {title: 'Events',
     icon: 'calendar-s.svg',
-    link: '/news/'}
+    link: '/events/'}
 
 - {title: 'Promotions and services',
     icon: 'box-s.svg',
-    link: '/'}
+    link: '/projects/promotions-and-services/'}
 
 - {title: 'RE-Projects',
     icon: 'projects-s.svg',
-    link: '/'}
+    link: '/projects/re-projects/'}
 
 - {title: 'Affiliates',
     icon: 'affiliates-s1.svg',
-    link: '/'}
+    link: '/projects/affiliates'}
 
 - {title: 'Education Programs Demonstration Center',
     icon: 'education-s1.svg',
-    link: '/'}
+    link: '/projects/education-programs'}
 
 - {title: 'Solar Solution Commercial and Retail Depo',
     icon: 'solar-solution-s.svg',
@@ -27,7 +27,7 @@ Projects:
 
 - {title: 'Renewable Energy Technology',
     icon: 'renewable-energy-s.svg',
-    link: '/'}
+    link: '/projects/renewable-energy'}
 
 - {title: 'Energy Research Product Development and Innovation',
     icon: 'energy-research-s.svg',
@@ -93,33 +93,33 @@ solarsolution:
 
 - {title: 'Transportation applications',
     icon: 'Transportation-s',
-    link: 'Transportation'}
+    link: 'transportation-applications'}
 
-- {title: 'e Medical solutions',
+- {title: 'Medical solutions',
     icon: 'e-medical-solutions-s',
-    link: 'e-medical-solutions'}
+    link: 'medical-solutions'}
 
-- {title: 'e Government solutions',
+- {title: 'Government solutions',
     icon: 'affiliates-s1',
-    link: ''}
+    link: 'government-solutions'}
 
-- {title: 'e Educational solutions',
+- {title: 'Educational solutions',
     icon: 'education-s1',
-    link: ''}
+    link: 'educational-solutions'}
 
-- {title: 'e Agricultural solutions',
+- {title: 'Agricultural solutions',
     icon: 'e-agricultural-solutions-s',
-    link: ''}
+    link: 'agricultural-solutions'}
 
 - {title: 'Commercial applications',
     icon: 'commercial-applications-s',
-    link: ''}
+    link: 'commercial-applications'}
 
 - {title: 'Home systems',
     icon: 'home-systems-s',
-    link: ''}
+    link: 'home-systems'}
 
 - {title: 'Catalogue links Contacts',
     icon: 'projects-s',
-    link: ''}
+    link: 'catalogue-links-contacts'}
 

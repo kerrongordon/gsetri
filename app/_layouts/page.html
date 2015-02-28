@@ -3,13 +3,15 @@ layout: default
 ---
 
        <div class="page-heading">
-       		<img class="page-head-bg" src="{{ site.baseurl }}/img/energyresearch/{{ page.img }}.jpg" alt="">
+       		{% if page.categories == 'energy-research' %}<img class="page-head-bg" src="{{ site.baseurl }}/img/energyresearch/{{ page.img }}.jpg" alt="">{% endif %}
+       		{% if page.categories == 'solar-solution' %}<img class="page-head-bg" src="{{ site.baseurl }}/img/solar-solution/{{ page.img }}.jpg" alt="">{% endif %}
 			<div class="container">
 				<h1>{{ page.title }}</h1>
 			</div>
 		</div>
 
 		{% if page.categories == 'energy-research' %}{% include ermenu.html %}{% endif %}
+		{% if page.categories == 'solar-solution' %}{% include ssmenu.html %}{% endif %}
 		
 		<section class="space">
 			<div class="container">
