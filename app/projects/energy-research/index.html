@@ -1,24 +1,11 @@
 ---
-layout: default
+layout: page
 title: Energy Research Product Development and Innovation 
 path: Projects
 ---
-
-<div class="page-heading blog-img">
-	<div class="container">
-		<h1>{{ page.title }}</h1>
-	</div>
-</div>
-
-
-<section class="space about">
-<div class="container">
 	
 	<div class="row">
 		{% for energyresearch in site.data.Projects.energyresearch %}
 		<div class="col-md-3 col-sm-6 mr-30"> <img src="{{ site.baseurl }}/img/icons/200/{{ energyresearch.icon }}.svg" alt="{{ energyresearch.title }}"><h4>{{ energyresearch.title }}</h4> <div><a class="btn btn-link" href="{{site.baseurl}}/projects/energy-research/{{ energyresearch.link }}" role="button">Learn more</a></div></div>
 		{% endfor %}
 	</div>
-
-</div>
-</section>

@@ -12,11 +12,15 @@ $acent-color-3: #3498db;
 body {
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
+  font-weight: 300;
   text-align: center;
   background-color: #fff;
 }
 
-
+.hero-bg {
+	background-color: $main-acent-color;
+	background: linear-gradient(135deg, $main-acent-color, $acent-color-3);
+}
 
 .lead {
 	font-size: 1.6rem;
@@ -112,8 +116,6 @@ i {
 
 .breadcrumb-bar {
 	width: 100%;
-	background-color: $main-acent-color;
-	background: linear-gradient(135deg, $main-acent-color, $acent-color-3);
 	padding: 15px 0px;
 }
 
@@ -163,8 +165,6 @@ i {
 }
 
 .ermenu {
-	background-color: $acent-color-1;
-	background: linear-gradient(135deg, $main-acent-color, $acent-color-3);
 	padding: 10px 0;
 
 	.active {

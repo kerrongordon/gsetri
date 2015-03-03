@@ -1,10 +1,17 @@
 	
-    <!-- build:js(app) /js/scripts.js -->
-    <script src="{{ site.baseurl }}/_bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="{{ site.baseurl }}/_bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="{{ site.baseurl }}/_bower_components/wowjs/dist/wow.min.js"></script>
-    <script src="{{ site.baseurl }}/js/main.js"></script>
-    <!-- endbuild -->
+	{% if page.title == 'Contact' %}
+	<div class="featurette" id="purpose">
+        <div class="container">
+            <div class="content">
+                <div class=" ">
+                    <h2 class="featurette-heading"><i class="fa fa-leaf"></i> Get in Touch </h2>
+                    	<br>
+                        <div class="text-muted ">We're currently accepting new client.</div>
+                </div>
+            </div>
+        </div>
+    </div>	
+    {% endif %}
 
     <script>
     	new WOW().init();
