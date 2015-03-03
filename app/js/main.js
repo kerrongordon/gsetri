@@ -18,5 +18,5 @@ jQuery(document).ready(function($){
 	} else {
 
 	}
-    	$('#Contact-hide').hide();
+    $('#Contact-hide').hide();
 });
