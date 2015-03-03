@@ -28,40 +28,40 @@ main:
 
 projectsmenu:
 - {title: 'Events',
-   link: '/',
+   link: 'events/',
    icon: 'home'}
 
 - {title: 'Promotions',
-   link: '/',
+   link: 'projects/promotions-and-services/',
    icon: 'home'}
 
 - {title: 'RE-Projects',
-   link: '/',
+   link: 'projects/re-projects/',
    icon: 'home'}
 
 
 - {title: 'Affiliates',
-   link: '/',
+   link: 'projects/affiliates/',
    icon: 'home'}
 
 
 - {title: 'Education',
-   link: '/',
+   link: 'projects/education-programs/',
    icon: 'home'}
 
 
 - {title: 'Solar Solution',
-   link: '/',
+   link: 'projects/solar-solution/',
    icon: 'home'}
 
 
 - {title: 'Renewable Energy',
-   link: '/',
+   link: 'projects/renewable-energy/',
    icon: 'home'}
 
 
 - {title: 'Energy Research',
-   link: '/',
+   link: 'projects/energy-research/',
    icon: 'home'}
 
 
