@@ -2,35 +2,35 @@
 
 Projects:
 - {title: 'Events',
-    icon: 'calendar-s.svg',
+    icon: 'icons/200/calendar-s.html',
     link: '/events/'}
 
 - {title: 'Promotions and services',
-    icon: 'box-s.svg',
+    icon: 'icons/200/box-s.html',
     link: '/projects/promotions-and-services/'}
 
 - {title: 'RE-Projects',
-    icon: 'projects-s.svg',
+    icon: 'icons/200/projects-s.html',
     link: '/projects/re-projects/'}
 
 - {title: 'Affiliates',
-    icon: 'affiliates-s1.svg',
+    icon: 'icons/200/affiliates-s1.html',
     link: '/projects/affiliates'}
 
 - {title: 'Education Programs Demonstration Center',
-    icon: 'education-s1.svg',
+    icon: 'icons/200/education-s1.html',
     link: '/projects/education-programs'}
 
 - {title: 'Solar Solution Commercial and Retail Depo',
-    icon: 'solar-solution-s.svg',
+    icon: 'icons/200/solar-solution-s.html',
     link: '/projects/solar-solution/'}
 
 - {title: 'Renewable Energy Technology',
-    icon: 'renewable-energy-s.svg',
+    icon: 'icons/200/renewable-energy-s.html',
     link: '/projects/renewable-energy'}
 
 - {title: 'Energy Research Product Development and Innovation',
-    icon: 'energy-research-s.svg',
+    icon: 'icons/200/energy-research-s.html',
     link: '/projects/energy-research/'}
 
 
@@ -39,47 +39,47 @@ Projects:
 
 energyresearch:
 - {title: 'Static electricity',
-    icon: 'static-electricity-s',
+    icon: 'icons/200/static-electricity-s.html',
     link: 'static-electricity'}
 
 - {title: 'Nuclear Power',
-    icon: 'nuclear-power-s',
+    icon: 'icons/200/nuclear-power-s.html',
     link: 'nuclear-power'}
 
 - {title: 'Biological Power',
-    icon: 'biological-power-s',
+    icon: 'icons/200/biological-power-s.html',
     link: 'biological-power'}
 
 - {title: 'Tidal power',
-    icon: 'tidal-power-s',
+    icon: 'icons/200/tidal-power-s.html',
     link: 'tidal-power'}
 
 - {title: 'Geothermal energy',
-    icon: 'geothermal-energy-s',
+    icon: 'icons/200/geothermal-energy-s.html',
     link: 'geothermal-energy'}
 
 - {title: 'Cogeneration power',
-    icon: 'heat-and-power-s',
+    icon: 'icons/200/heat-and-power-s.html',
     link: 'cogeneration-power'}
 
 - {title: 'Biomass and Biogas power',
-    icon: 'biomass-and-biogas-s',
+    icon: 'icons/200/biomass-and-biogas-s.html',
     link: 'biomass-and-biogas-power'}
 
 - {title: 'Waste to Energy Power',
-    icon: 'waste-to-energy-power-s',
+    icon: 'icons/200/waste-to-energy-power-s.html',
     link: 'waste-to-energy-power'}
 
 - {title: 'A photovoltaic power station',
-    icon: 'solar-solution-s',
+    icon: 'icons/200/solar-solution-s.html',
     link: 'photovoltaic'}
 
 - {title: 'Hydro-power or water power',
-    icon: 'hydro-power-s',
+    icon: 'icons/200/hydro-power-s.html',
     link: 'hydro-power'}
 
 - {title: 'Wind power',
-    icon: 'wind-power-s',
+    icon: 'icons/200/wind-power-s.html',
     link: 'wind-power'}
 
 
@@ -88,39 +88,39 @@ energyresearch:
 
 solarsolution:
 - {title: 'Informational technology',
-    icon: 'informational-technology-s',
+    icon: 'icons/200/informational-technology-s.html',
     link: 'informational-technology'}
 
 - {title: 'Transportation applications',
-    icon: 'Transportation-s',
+    icon: 'icons/200/Transportation-s.html',
     link: 'transportation-applications'}
 
 - {title: 'Medical solutions',
-    icon: 'e-medical-solutions-s',
+    icon: 'icons/200/e-medical-solutions-s.html',
     link: 'medical-solutions'}
 
 - {title: 'Government solutions',
-    icon: 'affiliates-s1',
+    icon: 'icons/200/affiliates-s1.html',
     link: 'government-solutions'}
 
 - {title: 'Educational solutions',
-    icon: 'education-s1',
+    icon: 'icons/200/education-s1.html',
     link: 'educational-solutions'}
 
 - {title: 'Agricultural solutions',
-    icon: 'e-agricultural-solutions-s',
+    icon: 'icons/200/e-agricultural-solutions-s.html',
     link: 'agricultural-solutions'}
 
 - {title: 'Commercial applications',
-    icon: 'commercial-applications-s',
+    icon: 'icons/200/commercial-applications-s.html',
     link: 'commercial-applications'}
 
 - {title: 'Home systems',
-    icon: 'home-systems-s',
+    icon: 'icons/200/home-systems-s.html',
     link: 'home-systems'}
 
 - {title: 'Catalogue links Contacts',
-    icon: 'projects-s',
+    icon: 'icons/200/projects-s.html',
     link: 'catalogue-links-contacts'}
 
 
