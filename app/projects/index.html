@@ -7,7 +7,7 @@ title: Projects
 		{% for Projects in site.data.Projects.Projects %}
 		<div class="col-md-3 col-sm-6 mr-30 text-center"> 
 			<a class="btn btn-link btn-icon-link wow fadeInUp" data-wow-delay="{% increment variable %}00ms" href="{{site.baseurl}}{{ Projects.link }}" role="button">
-				<div class="btn-icon">{% include {{Projects.icon}} %}</div>
+				<img class="btn-icon" src="{{ site.baseurl }}/img/icons/200/{{Projects.icon}}.svg" alt="{{Projects.icon}}">
 				<span>Learn more</span>
 			</a>
 			<h5 class="btn-link-title">{{ Projects.title }}</h5> 

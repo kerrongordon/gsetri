@@ -8,7 +8,7 @@ path: Projects
 		{% for solarsolution in site.data.Projects.solarsolution %}
 		<div class="col-md-3 col-sm-6 mr-30 text-center"> 
 			<a class="btn btn-link btn-icon-link wow fadeInUp" data-wow-delay="{% increment variable %}00ms" href="{{site.baseurl}}{{ solarsolution.link }}" role="button">
-				<div class="btn-icon">{% include {{solarsolution.icon}} %}</div>
+				<img class="btn-icon" src="{{ site.baseurl }}/img/icons/200/{{solarsolution.icon}}.svg" alt="{{solarsolution.icon}}">
 				<span>Learn more</span>
 			</a>
 			<h5 class="btn-link-title">{{ solarsolution.title }}</h5> 
