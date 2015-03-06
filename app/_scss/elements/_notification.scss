@@ -1,0 +1,27 @@
+.notification {
+	width: 200px;
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	right: -220px;
+	box-shadow: 0 15px 10px -15px #000;
+	color: #fff;
+	text-align: center;
+	transition: all .5s ease;
+
+	h3 {
+		padding: 10px;
+		font-size: 1.5em;
+		margin: 0;
+	}
+}
+
+.noti-on {
+	right: 0;
+	background: #2ecc71;
+}
+
+.noti-on-error {
+	right: 0;
+	background: #e74c3c;
+}
