@@ -4,7 +4,8 @@ layout: default
 
        <div class="page-heading">
        		{% if page.title == 'Contact' %}{% include maps.html %}{% endif %}
-       		{% if page.categories == 'energy-research' %}<img class="page-head-bg animated fadeIn" src="{{ site.baseurl }}/img/energyresearch/{{ page.img }}.jpg" alt="">{% endif %}
+       		{% if page.title == 'Events' %}<img class="page-head-bg animated fadeIn" src="{{ site.baseurl }}/img/events.svg" alt="">{% endif %}
+       		{% if page.categories == 'energy-research' %}<img class="page-head-bg animated fadeIn" src="{{ site.baseurl }}/img/energyresearch/{{ page.img }}.svg" alt="">{% endif %}
        		{% if page.categories == 'solar-solution' %}<img class="page-head-bg animated fadeIn" src="{{ site.baseurl }}/img/solar-solution/{{ page.img }}.jpg" alt="">{% endif %}
 			<div {% if page.title == 'Contact' %}id="Contact-hide"{% endif %} class="container"><h1>{{ page.title }}</h1></div>
 		</div>
