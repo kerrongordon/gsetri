@@ -7,7 +7,9 @@ $acent-color-3: #3498db;
 
 
 
-
+html, body {
+	transition: all .2s ease;
+}
 
 body {
   font: 13.34px Helvetica, Arial, sans-serif;
@@ -202,4 +204,5 @@ i {
 	right: 0;
 	bottom: 0;
 	z-index: 1;
+	transition: all .2s ease;
 }
