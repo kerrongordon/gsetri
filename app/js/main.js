@@ -14,12 +14,12 @@ jQuery(document).ready(function($){
 		});
 		$('.page-head-bg').css({'top': '-70%' });
 	} else {
-		$(window).scroll(function() {
+		/*$(window).scroll(function() {
 		  var windowScroll = $(this).scrollTop()/1.5;
 		  $('.page-head-bg').css({
 		    'top': '-' + windowScroll + 'px'
 		  });
-		});
+		});*/
 	}
     $('#Contact-hide').hide();
 });
