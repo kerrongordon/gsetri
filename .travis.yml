@@ -3,5 +3,5 @@ sudo: required
 language: node_js
 
 before_script:
-  - npm install gulp
+  - npm install -g grunt
 script: gulp
