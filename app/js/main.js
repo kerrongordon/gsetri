@@ -12,7 +12,6 @@ jQuery(document).ready(function($){
 		        $('#navbar').removeClass('gototop animated fadeInDown');
 		    }
 		});
-		$('.page-head-bg').css({'top': '-70%' });
 	} else {
 		/*$(window).scroll(function() {
 		  var windowScroll = $(this).scrollTop()/1.5;

@@ -83,5 +83,8 @@ PLATFORMS
 DEPENDENCIES
   compass (>= 0.12)
   jekyll (~> 2.5.3)
-  redcarpet
   rake
+  redcarpet
+
+BUNDLED WITH
+   1.10.6
