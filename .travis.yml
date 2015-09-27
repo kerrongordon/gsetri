@@ -1,7 +1,11 @@
 sudo: false
 
-language: node_js
-
+language: ruby
+rvm:
+  - 2.0.0-p247
+  
 before_script:
-  - npm install -g grunt
+  - npm install -g grunt-cli
+  - npm install 
+  - bundle install
 script: grunt
