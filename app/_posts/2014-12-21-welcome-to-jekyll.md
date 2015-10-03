@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2014-12-21 12:22:51
+title:  "Renewable Energy Technology"
+date:   2015-12-21 
 categories: events
-thumbnail: spacer-bg-1.jpg
+thumbnail: post-2.jpg
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
