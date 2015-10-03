@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Yo Jekyll!"
-categories: jekyll update
+categories: events
+thumbnail: post-1.jpg
 ---
 
 # 'Allo, 'Allo!

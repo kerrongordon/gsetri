@@ -2,26 +2,21 @@
 	<div class="container">
 		<ol class="breadcrumb">
 		  <span>You Are Here: </span> <li><a href="{{site.baseurl}}/">Home</a></li>
-		  {% if page.title == 'Contact' or page.title == 'Projects' or page.title == 'Events' or page.title == 'About' or page.title == 'Departments' %}
-		    <li><a href="#">{{ page.title }}</a></li>
-		  {% endif %}
 
-		  {% if page.path == 'Projects' %}
-			<li><a href="{{site.baseurl}}/projects/">{{ page.path }}</a></li>
-		    <li><a href="#">{{ page.title }}</a></li>
-		  {% endif %}
+			{% if page.sub ==  null %}
+			{% else %}
+				{% if page.sub == page.sub %}<li><a href="{{ site.baseurl }}/{{ page.sub }}">{{ page.sub }}</a></li>{% endif %}
+			{% endif %}
 
-		  {% if page.categories == 'energy-research' %}
-		  	<li><a href="{{site.baseurl}}/projects/">Projects</a></li>
-			<li><a href="{{site.baseurl}}/projects/energy-research/">Energy Research</a></li>
-		    <li><a href="{{site.baseurl}}/projects/energy-research/{{ page.path }}">{{ page.title }}</a></li>
-		  {% endif %}
+			{% if page.categories ==  null %}
+			{% else %}
+				{% if page.categories ==  page.categories %}<li><a href="{{ site.baseurl }}/{% if page.sub ==  null %}{% else %}{{ page.sub }}/{% endif %}{{ page.categories }}">{{ page.categories }}</a></li>{% endif %}
+			{% endif %}
 
-		  {% if page.categories == 'solar-solution' %}
-		  	<li><a href="{{site.baseurl}}/projects/">Projects</a></li>
-			<li><a href="{{site.baseurl}}/projects/solar-solution/">Solar Solution</a></li>
-		    <li><a href="{{site.baseurl}}/projects/solar-solution/{{ page.path }}">{{ page.title }}</a></li>
-		  {% endif %}
+			{% if page.title ==  null %}
+			{% else %}
+				{% if page.title ==  page.title %}<li><a href="#">{% if page.title == 'Events' or page.title == site.title %} {% else %} {{ page.title }} {% endif %}</a></li>{% endif %}
+			{% endif %}
 
 		</ol>
 	</div>

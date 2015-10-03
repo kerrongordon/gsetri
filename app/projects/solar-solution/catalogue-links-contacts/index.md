@@ -7,10 +7,4 @@ path: catalogue-links-contacts
 img: catalogue-links-contacts
 ---
 
-
-<div class="col-md-8 col-md-offset-2 text-left">
-
-<img class=" " src="{{ site.baseurl }}/img/Page_Under_Construction.png" alt="">
-
-
-</div>
+![]({{ site.baseurl }}/img/Page_Under_Construction.png)

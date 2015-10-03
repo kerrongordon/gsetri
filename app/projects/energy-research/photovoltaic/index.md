@@ -7,35 +7,17 @@ path: photovoltaic
 img: energy-panels
 ---
 
+### Global Highlights
 
-<div class="col-md-8 col-md-offset-2 text-left">
-
-<div class="row">
-<div class="col-md-8">
-<h4 class="text-center">Global Highlights</h4>
-
-<p class="lead">
 On average, each square metre of land on Earth is exposed to enough sunlight to generate 1,700 kWh of energy every year using currently available technology. The total solar energy that reaches the Earth’s surface could meet our existing global energy needs 10,000 times over.
-</p>
 
-<p class="lead">
 The use of solar energy is growing rapidly, with global production and markets more than doubling in 2010. An estimated 17 GW of capacity was added worldwide in 2010 bringing the global total to 40 GW – more than seven times the capacity of five years earlier.
-</p>
-</div>
-<img class="col-md-4 hidden-sm hidden-xs" src="{{ site.baseurl }}/img/icons/200/solar-solution-s.svg" alt="">
-</div>
 
-<div class="row">
 
-<div class="col-md-12 text-center">
-<h4>What Does it Cost?</h4>
-<p class="lead">
+### What Does it Cost?
+
 Installed solar PV in BC costs around $3 per watt, compared to $6-8 five years ago, or $15,000 for a 3kW system.
 One Vancouver PV installer has quoted $12k for a 3kW bulk purchase if a group of 30 owners lived relatively close to each other.
-</p>
-</div>
-<img class="col-md-12 col-sm-12 col-xs-12" src="{{ site.baseurl }}/img/energyresearch/HOW-SOLAR-WORKS2.png" alt="">
 
-</div>
+![]({{ site.baseurl }}/img/energyresearch/HOW-SOLAR-WORKS2.png)
 
-</div>

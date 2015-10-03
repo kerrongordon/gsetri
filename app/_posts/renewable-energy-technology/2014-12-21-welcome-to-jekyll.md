@@ -2,7 +2,8 @@
 layout: post
 title:  "Renewable Energy Technology"
 date:   2015-12-21 
-categories: renewable-energy-technology
+categories: events
+thumbnail: post-2.jpg
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
