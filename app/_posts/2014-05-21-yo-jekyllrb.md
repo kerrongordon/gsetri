@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Yo Jekyll!"
+date:   2014-05-21 
 categories: events
 thumbnail: post-1.jpg
 ---
