@@ -291,7 +291,7 @@ module.exports = function (grunt) {
     buildcontrol: {
       dist: {
         options: {
-          remote: 'git@github.com:kerrongordon/gsetri-website.git',
+          remote: 'git@github.com:kerrongordon/gsetri.git',
           branch: 'gh-pages',
           commit: true,
           push: true
