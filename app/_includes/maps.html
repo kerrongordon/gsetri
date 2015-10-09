@@ -1,6 +1,5 @@
 <div style="
-    
-    background-color: rgba(52, 73, 94, 0.35);
+ 
     z-index: 200;
     position: absolute;
     bottom: 0;
@@ -13,7 +12,7 @@
 </style>
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 
-<div style="overflow:hidden;height:500px;width:100%;">
+<div style="overflow:hidden;height:500px;width:100%;" class="gmap animated fadeIn">
 	<div id="gmap_canvas" style="height:500px;width:100%;"></div>
 	<style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
 	<a class="google-map-code" href="http://www.trivoo.net/gutscheine/goertz/" id="get-map-data">goertz gutschein</a>
@@ -21,7 +20,7 @@
 
 <script type="text/javascript"> 
     function init_map(){
-        var myOptions = {zoom:17,center:new google.maps.LatLng({{ site.data.contact.Latitude }}, {{ site.data.contact.Longitude }} ),
+        var myOptions = {zoom:18,center:new google.maps.LatLng({{ site.data.contact.Latitude }}, {{ site.data.contact.Longitude }} ),
             mapTypeId: google.maps.MapTypeId.ROADMAP};
             map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
             marker = new google.maps.Marker({map: map,position: new google.maps.LatLng({{ site.data.contact.Latitude }}, {{ site.data.contact.Longitude }} )});

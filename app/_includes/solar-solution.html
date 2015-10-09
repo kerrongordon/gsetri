@@ -1,0 +1,9 @@
+<div class="ermenu">
+  <div class="container">
+    <ul class="nav nav-pills">
+      {% for ermenu in site.data.Projects.solarsolution %}
+        <li role="presentation" {% if page.title == ermenu.title %}class="active"{% endif %} ><a href="{{site.baseurl}}/{{page.sub}}/{{page.categories}}/{{ermenu.link}}">{{ ermenu.title | capitalize }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

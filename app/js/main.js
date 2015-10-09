@@ -13,12 +13,10 @@ jQuery(document).ready(function($){
 		    }
 		});
 	} else {
-		/*$(window).scroll(function() {
-		  var windowScroll = $(this).scrollTop()/1.5;
-		  $('.page-head-bg').css({
-		    'top': '-' + windowScroll + 'px'
-		  });
-		});*/
+
+		
 	}
     $('#Contact-hide').hide();
 });
+
+

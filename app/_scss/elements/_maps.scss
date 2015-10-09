@@ -1,0 +1,14 @@
+.gmnoprint, .gmnoscreen {
+	display: none
+}
+
+.gm-style-iw {
+	text-shadow: none;
+    color: #444;
+}
+
+@media (max-width: 700px) {
+	.gmap {
+		height: 400px !important
+	}
+}

@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Catalogue links contacts"
+title:  "Catalogue links Contacts"
 categories: solar-solution
 sub: projects
 path: catalogue-links-contacts

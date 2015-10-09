@@ -3,17 +3,19 @@ layout: default
 ---
 
        <div class="page-heading">
-       		{% if page.title == 'Contact' %}{% include maps.html %}{% endif %}
-       		{% if page.title == 'About' %}<img class="page-head-bg animated fadeIn" src="{{ site.baseurl }}/img/about.jpg" alt="">{% endif %}
-       		{% if page.title == 'Departments' %}<img class="page-head-bg animated fadeIn" src="{{ site.baseurl }}/img/dep.jpg" alt="">{% endif %}
-       		{% if page.title == 'Events' %}<img class="page-head-bg animated fadeIn" src="{{ site.baseurl }}/img/eve.jpg" alt="">{% endif %}
-       		{% if page.categories == 'energy-research' %}<img class="page-head-bg animated fadeIn" src="{{ site.baseurl }}/img/energyresearch/{{ page.img }}.jpg" alt="">{% endif %}
-       		{% if page.categories == 'solar-solution' %}<img class="page-head-bg animated fadeIn" src="{{ site.baseurl }}/img/solar-solution/{{ page.img }}.jpg" alt="">{% endif %}
-			<div {% if page.title == 'Contact' %}id="Contact-hide"{% endif %} class="container"><h1>{{ page.title }}</h1></div>
+       		{% if page.title == 'Contact' %}
+       			{% include maps.html %}
+       		{% else %}
+       			{% if page.title == page.title %} <img class="page-head-bg animated fadeIn" src="{{ site.baseurl }}/img/{{ page.title | downcase }}.jpg" alt="">{% endif %}
+       			{% if page.categories == null %} {% else %}
+       				{% if page.categories == page.categories %}<img class="page-head-bg animated fadeIn" src="{{ site.baseurl }}/img/{{ page.categories }}/{{ page.img }}.jpg" alt="">{% endif %}
+       			{% endif %}
+       			<div class="container"><h1>{{ page.title | replace:'-',' ' | capitalize }}</h1></div>
+       		{% endif %}
 		</div>
 
-		{% if page.categories == 'energy-research' %}{% include ermenu.html %}{% endif %}
-		{% if page.categories == 'solar-solution' %}{% include ssmenu.html %}{% endif %}
+		{% if page.categories == 'energy-research' %}{% include energy-research.html %}{% endif %}
+		{% if page.categories == 'solar-solution' %}{% include solar-solution.html %}{% endif %}
 		
 		</div>
 

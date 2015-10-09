@@ -50,19 +50,19 @@ energyresearch:
     icon: 'biological-power-s',
     link: 'biological-power'}
 
-- {title: 'Tidal power',
+- {title: 'Tidal Power',
     icon: 'tidal-power-s',
     link: 'tidal-power'}
 
-- {title: 'Geothermal energy',
+- {title: 'Geothermal Energy',
     icon: 'geothermal-energy-s',
     link: 'geothermal-energy'}
 
-- {title: 'Cogeneration power',
+- {title: 'Cogeneration Power',
     icon: 'heat-and-power-s',
     link: 'cogeneration-power'}
 
-- {title: 'Biomass and Biogas power',
+- {title: 'Biomass and Biogas Power',
     icon: 'biomass-and-biogas-s',
     link: 'biomass-and-biogas-power'}
 
@@ -70,15 +70,15 @@ energyresearch:
     icon: 'waste-to-energy-power-s',
     link: 'waste-to-energy-power'}
 
-- {title: 'A photovoltaic power station',
+- {title: 'A Photovoltaic Power Station',
     icon: 'solar-solution-s',
     link: 'photovoltaic'}
 
-- {title: 'Hydro-power or water power',
+- {title: 'Hydro Power or Water Power',
     icon: 'hydro-power-s',
     link: 'hydro-power'}
 
-- {title: 'Wind power',
+- {title: 'Wind Power',
     icon: 'wind-power-s',
     link: 'wind-power'}
 

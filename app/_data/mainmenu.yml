@@ -5,7 +5,7 @@ main:
    icon: 'home'}
 
 - {title: 'Events',
-   link: 'news/',
+   link: 'events/',
    icon: 'newspaper-o'}
 
 - {title: 'Projects',
@@ -63,9 +63,4 @@ projectsmenu:
 - {title: 'Energy Research',
    link: 'projects/energy-research/',
    icon: 'home'}
-
-
-
-
-
 

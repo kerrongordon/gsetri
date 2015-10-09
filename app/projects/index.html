@@ -10,7 +10,7 @@ title: Projects
 				<img class="btn-icon" src="{{ site.baseurl }}/img/icons/200/{{Projects.icon}}.svg" alt="{{Projects.icon}}">
 				<span>Learn more</span>
 			</a>
-			<h5 class="btn-link-title">{{ Projects.title }}</h5> 
+			<h5 class="btn-link-title">{{ Projects.title | replace:'-',' ' | capitalize }}</h5> 
 		</div>
 		{% endfor %}
 	</div>
