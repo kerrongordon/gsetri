@@ -10,7 +10,7 @@
 
 			{% if page.categories ==  null %}
 			{% else %}
-				{% if page.categories ==  page.categories %}<li><a href="{{ site.baseurl }}/{% if page.sub ==  null %}{% else %}{{ page.sub }}/{% endif %}{{ page.categories }}">{{ page.categories | replace:'-',' ' | capitalize }}</a></li>{% endif %}
+				{% if page.categories ==  page.categories %}<li><a href="{{ site.baseurl }}/{% if page.sub ==  null %}{% else %}{{ page.sub }}/{% endif %}{{ page.categories }}">{{ page.categories | replace:'-',' ' | remove: '"' | remove: '[' | remove: ']' | capitalize }}</a></li>{% endif %}
 			{% endif %}
 
 			{% if page.title ==  null %}

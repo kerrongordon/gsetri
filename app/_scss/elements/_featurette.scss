@@ -15,12 +15,17 @@
 	background-color: #4CAF50;
 	background: linear-gradient(135deg, #2ecc71, #3498db);
 
-	.lead, .featurette-heading {
+	.lead, .featurette-heading, li {
 		color: #fff;
+		text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 	}
 
 	.text-muted {
-		color: #444;
+		color: #2ecc71;
+	}
+
+	a {
+		color: #2ecc71;
 	}
 }
 

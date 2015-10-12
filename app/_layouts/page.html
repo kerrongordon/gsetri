@@ -4,11 +4,12 @@ layout: default
 
        <div class="page-heading">
        		{% if page.title == 'Contact' %}
+       			<div class="overlay"></div>
        			{% include maps.html %}
        		{% else %}
-       			{% if page.title == page.title %} <img class="page-head-bg animated fadeIn" src="{{ site.baseurl }}/img/{{ page.title | downcase }}.jpg" alt="">{% endif %}
+       			{% if page.title == page.title %}<div class="overlay"></div> <img class="page-head-bg animated fadeIn" src="{{ site.baseurl }}/img/{{ page.title | downcase }}.jpg" alt="">{% endif %}
        			{% if page.categories == null %} {% else %}
-       				{% if page.categories == page.categories %}<img class="page-head-bg animated fadeIn" src="{{ site.baseurl }}/img/{{ page.categories }}/{{ page.img }}.jpg" alt="">{% endif %}
+       				{% if page.categories == page.categories %}<div class="overlay"></div> <img class="page-head-bg animated fadeIn" src="{{ site.baseurl }}/img/{{ page.categories }}/{{ page.img }}.jpg" alt="">{% endif %}
        			{% endif %}
        			<div class="container"><h1>{{ page.title | replace:'-',' ' | capitalize }}</h1></div>
        		{% endif %}
