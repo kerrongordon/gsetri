@@ -4,19 +4,20 @@ $main-acent-color: #2ecc71;
 $acent-color-1: #1B232C;
 $acent-color-2: #34495e;
 $acent-color-3: #3498db;
-
-
+$background-color: #fcfcfc;
+$font-color: #777;
 
 html, body {
 	transition: all .2s ease;
 }
 
 body {
-  font: 13.34px Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: small;
-  font-weight: 300;
+  font-weight: 400;
   text-align: center;
-  background-color: #fff;
+  background-color: $background-color;
+  color: $font-color;
 }
 
 @font-face {
@@ -35,7 +36,7 @@ body {
 .lead {
 	font-size: 1.6rem;
 	line-height: 1.5em;
-	color: #444;
+	color: $font-color;
 }
 
 .caption {
@@ -53,7 +54,7 @@ i {
 	margin-top: 20px;
 
 	a {
-		color: #555;
+		color: $font-color;
 	}
 }
 
@@ -126,7 +127,7 @@ i {
 }
 
 .navbar-toggle .icon-bar {
-	background: #555;
+	background: $font-color;
 }
 
 //breadcrumb 
@@ -175,14 +176,18 @@ i {
 //ermenu
 
 .nav-pills>li>a {
-	font-size: 1.04rem;
-	padding: 10px 5px;
+	font-size: 14px;
+	padding: 7px 5px;
 	display: block;
-	color: #fff;
 }
 
 .ermenu {
 	padding: 10px 0;
+
+	.nav-pills>li>a {
+		font-size: 1.04rem;
+		color: #fff;
+	}
 
 	.active {
 		box-shadow: none;
@@ -224,7 +229,8 @@ i {
 
 p {
 	font-size: 1.6rem;
-	line-height: 1.5em;
+    line-height: 1.8em;
+    color: $font-color;
 
 	img {
 		width: 100%;

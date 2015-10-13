@@ -19,6 +19,8 @@ paginate: 3
 paginate_path: events/page:num
 destination: _site/events
 
+permalink: pretty
+
 # _config.build.yml sets future and show_drafts to false on `grunt build`
 future: true
 show_drafts: true
