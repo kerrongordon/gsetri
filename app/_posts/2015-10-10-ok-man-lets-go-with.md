@@ -4,7 +4,7 @@ title:  "Lorem Ipsum is simply dummy text"
 date:   2015-10-10 
 categories: events
 comments: true
-thumbnail: post-5.jpg
+thumbnail: post-2.jpg
 author: Kylie Marker
 authorface: 129.jpg
 ---

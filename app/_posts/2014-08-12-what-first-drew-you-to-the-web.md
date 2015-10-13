@@ -4,7 +4,7 @@ title:  "Lorem Ipsum is not simply random text"
 date:   2015-08-12 
 categories: events
 comments: true
-thumbnail: post-3.jpg
+thumbnail: post-4.jpg
 author: Kerron Bridge
 authorface: 130.jpg
 ---

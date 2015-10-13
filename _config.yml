@@ -15,6 +15,9 @@ exclude: ['img', 'css', 'js', 'fonts',
           '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico', 'vendor']
 
 include: ['.htaccess', 'favicon.png']
+paginate: 3
+paginate_path: events/page:num
+destination: _site/events
 
 # _config.build.yml sets future and show_drafts to false on `grunt build`
 future: true

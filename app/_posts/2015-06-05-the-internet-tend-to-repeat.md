@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "There are many variations of passages"
-date:   2015-10-12 
+title:  "the Internet tend to repeat"
+date:   2015-06-05 
 categories: events
 comments: true
-thumbnail: post-6.jpg
+thumbnail: post-1.jpg
 author: Administrator
 authorface: 128.jpg
 ---
