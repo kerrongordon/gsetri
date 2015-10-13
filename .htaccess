@@ -1,0 +1,29 @@
+RewriteEngine on
+
+# Redirect to another domain: gsetri.com.
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} !^(www\.)?gsetri\.com$ [NC]
+RewriteRule .* http://gsetri.com%{REQUEST_URI} [R=301,L]
+# Same for HTTPS:
+RewriteCond %{HTTPS} on
+RewriteCond %{HTTP_HOST} !^(www\.)?gsetri\.com$ [NC]
+RewriteRule .* https://gsetri.com%{REQUEST_URI} [R=301,L]
+
+# Add Caching.
+<FilesMatch ".(ico|jpg|jpeg|png|gif|js|css|swf)$">
+    Header set Cache-Control "max-age=60"
+</FilesMatch>
+
+# Custom error pages.
+ErrorDocument 404 /gsetri.com/404/
+
+# Compress text, html, javascript, css, xml:
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
