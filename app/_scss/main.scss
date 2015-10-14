@@ -4,8 +4,9 @@ $main-acent-color: #2ecc71;
 $acent-color-1: #1B232C;
 $acent-color-2: #34495e;
 $acent-color-3: #3498db;
-$background-color: #fcfcfc;
+$background-color: #F8F8F8;
 $font-color: #777;
+$box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
 
 html, body {
 	transition: all .2s ease;
@@ -110,7 +111,7 @@ i {
 
 .main-form {
 	margin-top: -200px;
-	background: #fff;
+	background: $background-color;
 	z-index: 300;
 	padding: 30px;
 
