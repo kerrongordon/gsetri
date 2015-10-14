@@ -32,3 +32,4 @@ $('form.contact').on('submit', function() {
     });
     return false;
 });
+
