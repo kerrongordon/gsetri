@@ -17,6 +17,52 @@ jQuery(document).ready(function($){
 		
 	}
     $('#Contact-hide').hide();
+
+    $('#search-input').keyup(searchPosts);
+
+    function searchPosts(e) {
+    	var searchFiled = $(this).val(),
+    		myExp = new RegExp(searchFiled, 'i');
+
+    	$.getJSON('/search.json', loadJson);
+
+    	function loadJson(data) {
+    		var output = '<div class="updateSearch">'
+    		$.each(data, function(key, val) {
+    			if ((val.title.search(myExp) != -1) || (val.author.search(myExp) != -1)) {
+    				output += '<li class="text-left">';
+    				output += '<h3><a href="' +  val.url + '">' + val.title + '</a></h3>';
+    				output += '</li>';
+    			}
+    		});
+    		output += '</div>';
+    		$('#results-container').html(output);
+    	}
+    }
+
+    $('#search-input').on('keyup', moveupInputbox);
+    $('.searchBotton').on('click', openSearch);
+    $('.close').on('click', closeSearch)
+
+    function openSearch(e) {
+    	e.preventDefault();
+    	$('#search-container').show();
+    	$('.body').hide();
+    	$('body').css({ background: '#3d566e' });
+    	$('#search-input').focus();
+    }
+
+    function moveupInputbox() {
+    	$('#results-container').css({ marginTop: '50px', opacity: '1' });
+    	$('.inputbox').css({ top: '15vh' });
+    }
+
+    function closeSearch() {
+    	$('.body').show();
+    	$('#search-container').hide();
+    	$('body').css({ background: 'transparent' });
+    }
+
 });
 
 

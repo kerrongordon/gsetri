@@ -18,6 +18,7 @@
           {% for mainmenu in site.data.mainmenu.main %}
             <li {% if page.title == mainmenu.title %}class="active"{% endif %} ><a href="{{ site.baseurl }}/{{ mainmenu.link }}"><i class="fa fa-{{ mainmenu.icon }}"></i> {{ mainmenu.title }}</a></li>
           {% endfor %}
+          <li><a href="#" class="searchBotton"><i class="fa fa-search"></i> Search</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->

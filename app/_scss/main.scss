@@ -220,11 +220,12 @@ i {
 	position: absolute;
 	width: 100%;
 	min-height: 100%;
+	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
 	z-index: 1;
-	transform: translateY(30%);
+	//transform: translateY(30%);
 	transition: all .05s ease;
 }
 
@@ -257,4 +258,53 @@ p {
 
 a:hover {
 	cursor: pointer;
+}
+
+.close {
+	margin: 20px;
+
+	i {
+		color: #fff;
+	}
+}
+
+#search-container {
+	background: #3d566e;
+	display: none;
+
+	.inputbox {
+		top: 50vh;
+		transform: translateY(-10vh);
+		transition: all 0.3s ease-in-out;
+	}
+
+	#search-input {
+		width: 100%;
+		background: none;
+		border: none;
+		border-bottom: solid 1px #fff;
+		font-size: 3em;
+		padding: 2px 20px;
+		transition: all 0.3s ease-in-out;
+
+		&:focus, &:active {
+			border: none;
+			border-bottom: solid 1px #fff;
+			outline-width: 0;
+		}
+	}
+
+	#results-container {
+		opacity: 0;
+		transition: all 0.3s ease-in-out;
+	
+		li {
+			list-style: none;
+
+			a:hover {
+				color: #fff;
+				text-decoration: none;
+			}
+		}
+	} 
 }

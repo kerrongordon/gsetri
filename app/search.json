@@ -1,0 +1,25 @@
+---
+---
+[
+  {% for post in site.posts %}
+    {
+      "title"    : "{{ post.title | escape | replace: '-', ' ' | capitalize }}",
+      "category" : "{{ post.category }}",
+      "tags"     : "{{ post.tags | join: ', ' }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "date"     : "{{ post.date }}",
+      "author"   : "{{ post.author }}"
+    }, 
+  {% endfor %}
+
+  {% for page in site.pages %}
+    {
+      "title"    : "{{ page.title | escape | replace: '-', ' ' | capitalize | remove: 'Events' | remove: '404' }}",
+      "category" : "{{ page.category }}",
+      "tags"     : "{{ page.tags | join: ', ' }}",
+      "url"      : "{{ site.baseurl }}{{ page.url }}",
+      "date"     : "{{ page.date }}",
+      "author"   : "{{ page.author }}"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
