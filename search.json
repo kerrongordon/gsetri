@@ -66,15 +66,6 @@
     } ,
   
     {
-      "title"    : "Departments",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/departments/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
       "title"    : "About",
       "category" : "",
       "tags"     : "",
@@ -84,28 +75,37 @@
     } ,
   
     {
-      "title"    : "Contact",
+      "title"    : "Home",
       "category" : "",
       "tags"     : "",
-      "url"      : "/contact/",
+      "url"      : "/",
       "date"     : "",
       "author"   : ""
     } ,
   
     {
-      "title"    : "",
+      "title"    : "Re projects",
       "category" : "",
       "tags"     : "",
-      "url"      : "/events/",
+      "url"      : "/projects/re-projects/",
       "date"     : "",
       "author"   : ""
     } ,
   
     {
-      "title"    : "Renewable energy",
+      "title"    : "Education programs",
       "category" : "",
       "tags"     : "",
-      "url"      : "/projects/renewable-energy/",
+      "url"      : "/projects/education-programs/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Promotions and services",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/projects/promotions-and-services/",
       "date"     : "",
       "author"   : ""
     } ,
@@ -129,28 +129,10 @@
     } ,
   
     {
-      "title"    : "Education programs",
+      "title"    : "Renewable energy",
       "category" : "",
       "tags"     : "",
-      "url"      : "/projects/education-programs/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Re projects",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/re-projects/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Projects",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/",
+      "url"      : "/projects/renewable-energy/",
       "date"     : "",
       "author"   : ""
     } ,
@@ -165,28 +147,46 @@
     } ,
   
     {
-      "title"    : "Promotions and services",
+      "title"    : "Projects",
       "category" : "",
       "tags"     : "",
-      "url"      : "/projects/promotions-and-services/",
+      "url"      : "/projects/",
       "date"     : "",
       "author"   : ""
     } ,
   
     {
-      "title"    : "Home",
+      "title"    : "Departments",
       "category" : "",
       "tags"     : "",
-      "url"      : "/",
+      "url"      : "/departments/",
       "date"     : "",
       "author"   : ""
     } ,
   
     {
-      "title"    : "Biological power",
+      "title"    : "Contact",
       "category" : "",
       "tags"     : "",
-      "url"      : "/projects/energy-research/biological-power/",
+      "url"      : "/contact/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/events/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Static electricity",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/projects/energy-research/static-electricity/",
       "date"     : "",
       "author"   : ""
     } ,
@@ -210,33 +210,6 @@
     } ,
   
     {
-      "title"    : "Hydro power or water power",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/energy-research/hydro-power/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Tidal power",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/energy-research/tidal-power/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Cogeneration power",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/energy-research/cogeneration-power/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
       "title"    : "Waste to energy power",
       "category" : "",
       "tags"     : "",
@@ -246,28 +219,10 @@
     } ,
   
     {
-      "title"    : "Wind power",
+      "title"    : "Biological power",
       "category" : "",
       "tags"     : "",
-      "url"      : "/projects/energy-research/wind-power/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Static electricity",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/energy-research/static-electricity/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "A photovoltaic power station",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/energy-research/photovoltaic/",
+      "url"      : "/projects/energy-research/biological-power/",
       "date"     : "",
       "author"   : ""
     } ,
@@ -282,10 +237,100 @@
     } ,
   
     {
+      "title"    : "Tidal power",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/projects/energy-research/tidal-power/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "A photovoltaic power station",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/projects/energy-research/photovoltaic/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Hydro power or water power",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/projects/energy-research/hydro-power/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Wind power",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/projects/energy-research/wind-power/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Cogeneration power",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/projects/energy-research/cogeneration-power/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Agricultural solutions",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/projects/solar-solution/agricultural-solutions/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Commercial applications",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/projects/solar-solution/commercial-applications/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Home systems",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/projects/solar-solution/home-systems/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
       "title"    : "Medical solutions",
       "category" : "",
       "tags"     : "",
       "url"      : "/projects/solar-solution/medical-solutions/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Government solutions",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/projects/solar-solution/government-solutions/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Educational solutions",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/projects/solar-solution/educational-solutions/",
       "date"     : "",
       "author"   : ""
     } ,
@@ -309,55 +354,10 @@
     } ,
   
     {
-      "title"    : "Government solutions",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/solar-solution/government-solutions/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Home systems",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/solar-solution/home-systems/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Commercial applications",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/solar-solution/commercial-applications/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Agricultural solutions",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/solar-solution/agricultural-solutions/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
       "title"    : "Informational technology",
       "category" : "",
       "tags"     : "",
       "url"      : "/projects/solar-solution/informational-technology/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Educational solutions",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/solar-solution/educational-solutions/",
       "date"     : "",
       "author"   : ""
     } ,
