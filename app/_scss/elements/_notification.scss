@@ -1,31 +1,46 @@
-.notification {
-	//width: 200px;
-	opacity: 0;
+.notify {
+	background: rgba(0, 0, 0, 0.9);
+	padding: 5px 20px;
 	position: fixed;
-	z-index: 9999;
-	bottom: 20px;
-	right: -220px;
-	box-shadow: 0 0 3px rgba(black, 0.5);
-	border-radius: 20px 20px 20px 20px;
-	color: #fff;
-	text-align: center;
-	transition: all .5s ease;
+	z-index: 99999;
+	bottom: 10%;
+	left: 3%;
+	border-radius: 5px;
+	text-align: left;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.9);
+	transform: translateX(-200%);
+	transition: all 0.5s ease-in-out;
+	opacity: 0;
 
-	h3 {
-		padding: 10px 20px;
-		font-size: 1.2em;
-		margin: 0;
+	p, h4, .theEmail {
+		color: #fff;
+		padding-left: 15%;
+	}
+
+	h4 {
+		text-transform: capitalize;
+	}
+
+	span {
+		position: absolute;
+		left: 5%;
+		top: 50%;
+		transform: translateY(-50%);
 	}
 }
 
-.noti-on {
-	right: 0;
-	background: #2ecc71;
+.notifyShow {
+	transform: translateX(0%);
 	opacity: 1;
+
+	.fa-exclamation-triangle {
+		color: red;
+	}
 }
 
-.noti-on-error {
-	right: 0;
-	background: #e74c3c;
-	opacity: 1;
+
+@media (max-width: $mobile) {
+	p, h4, .theEmail {
+		font-size: 10px !important;
+	}
 }
