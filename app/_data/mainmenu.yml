@@ -4,8 +4,8 @@ main:
    link: '',
    icon: 'home'}
 
-- {title: 'Events',
-   link: 'events/',
+- {title: 'Blog',
+   link: 'blog/',
    icon: 'newspaper-o'}
 
 - {title: 'Projects',
@@ -27,8 +27,8 @@ main:
 
 
 projectsmenu:
-- {title: 'Events',
-   link: 'events/',
+- {title: 'Blog',
+   link: 'blog/',
    icon: 'home'}
 
 - {title: 'Promotions',
@@ -63,4 +63,3 @@ projectsmenu:
 - {title: 'Energy Research',
    link: 'projects/energy-research/',
    icon: 'home'}
-

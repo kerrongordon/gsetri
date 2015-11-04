@@ -7,9 +7,9 @@ layout: default
        			<div class="overlay"></div>
        			{% include maps.html %}
        		{% else %}
-       			{% if page.title == page.title %}<div class="overlay"></div> <img class="page-head-bg animated fadeIn 1" src="{{ site.baseurl }}/img/{{ page.title | downcase }}.jpg" onerror="this.src='{{ site.baseurl }}/img/events.jpg'" alt="{{ page.title | downcase }}">{% endif %}
+       			{% if page.title == page.title %}<div class="overlay"></div> <img class="page-head-bg animated fadeIn 1" src="{{ site.baseurl }}/img/{{ page.title | downcase }}.jpg" alt="{{ page.title | downcase }}">{% endif %}
        			{% if page.categories == null %} {% else %}
-       				{% if page.categories == page.categories %}<div class="overlay"></div> <img class="page-head-bg animated fadeIn" src="{{ site.baseurl }}/img/{{ page.categories }}/{{ page.img }}.jpg" onerror="this.src='{{ site.baseurl }}/img/events.jpg'" alt="{{ page.img }}">{% endif %}
+       				{% if page.categories == page.categories %}<div class="overlay"></div> <img class="page-head-bg animated fadeIn" src="{{ site.baseurl }}/img/{{ page.categories }}/{{ page.img }}.jpg" alt="{{ page.img }}">{% endif %}
        			{% endif %}
        			<div class="container"><h1>{{ page.title | replace:'-',' ' | capitalize }}</h1></div>
        		{% endif %}

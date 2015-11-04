@@ -6,13 +6,13 @@ sub: events
 
 	<div class="col-md-8 col-md-offset-2">
 		<div class="news-page">
-	 
+
 				{% for post in paginator.posts %}
 
-				<div class="post wow fadeInUp" data-wow-delay="{% increment variable %}00ms">
+				<div class="post wow fadeIn" data-wow-delay="{% increment variable %}00ms">
 
 					<div class="post-img-title">
-						{% if post.thumbnail == null %} 
+						{% if post.thumbnail == null %}
 							<h3 class=""><a href="{{ post.url }}">{{ post.title }}</a></h3>
 						{% else %}
 						<img class="post-thumbnail" src="{{ site.baseurl }}/img/events/{{ post.thumbnail }}" alt="">
@@ -21,8 +21,8 @@ sub: events
 						{% endif %}
 					</div>
 
-					{% if post.authorface == null %} 
-					
+					{% if post.authorface == null %}
+
 					{% else %}
 						<div class="post-author-face"><img src="{{ site.baseurl }}/img/authors/{{ post.authorface }}" alt=""></div>
 						<div class="padtop50"></div>
@@ -40,7 +40,7 @@ sub: events
 
 				</div>
 
-				{% endfor %} 
+				{% endfor %}
 
 				<div class="row">
 					<div class="col-xs-8">

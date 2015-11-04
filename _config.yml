@@ -16,8 +16,8 @@ exclude: ['img', 'css', 'js', 'fonts',
 
 include: ['.htaccess', 'favicon.png']
 paginate: 3
-paginate_path: events/page:num
-destination: _site/events
+paginate_path: blog/page:num
+destination: _site/blog
 
 permalink: pretty
 
@@ -31,4 +31,3 @@ markdown: redcarpet
 #   extensions: ['fenced_code_blocks', 'smart']
 
 highlighter: true
-

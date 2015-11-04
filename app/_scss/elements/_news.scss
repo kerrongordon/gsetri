@@ -13,7 +13,8 @@
 }
 
 .overlay {
-	background-color: rgba(black, 0.2);
+	//background-color: rgba(black, 0.2);
+	background: url(/img/dot.png);
 	top: 0;
 	left: 0;
 	right: 0;
@@ -58,7 +59,7 @@
 		height: 300px;
 	}
 
-	
+
 
 	.post-footer {
 		i {

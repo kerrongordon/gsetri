@@ -1,0 +1,25 @@
+---
+layout: default
+---
+</div>
+
+<div class="page-heading">
+  <div class="overlay"></div> <img class="page-head-bg animated fadeIn 1" src="{{ site.baseurl }}/img/events.jpg" alt="{{ page.title | downcase }}">
+  <div class="container"><h1>{{ page.categories | replace:'-',' ' | capitalize }} Category</h1></div>
+</div>
+
+<div class="space"></div>
+
+<div class="container">
+  <div class="col-md-8 col-md-offset-2 text-left">
+    <ul class="list-group">
+    {% for post in site.categories[page.categories] %}
+      <a class="list-group-item" href="{{ post.url }}">
+        <span class="badge">{{ post.date | date: "%B %d, %Y" }}</span> {{ post.title }}
+      </a>
+    {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<div class="space"></div>

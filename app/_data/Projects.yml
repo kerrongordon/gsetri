@@ -1,9 +1,9 @@
 # Projects index page
 
 Projects:
-- {title: 'Events',
+- {title: 'Blog',
     icon: 'calendar-s',
-    link: '/events/'}
+    link: '/blog/'}
 
 - {title: 'Promotions and services',
     icon: 'box-s',
@@ -122,5 +122,3 @@ solarsolution:
 - {title: 'Catalogue links Contacts',
     icon: 'projects-s',
     link: 'catalogue-links-contacts'}
-
-

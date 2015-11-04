@@ -40,7 +40,9 @@
 
 
 @media (max-width: $mobile) {
-	p, h4, .theEmail {
-		font-size: 10px !important;
+	.notify {
+		p, h4, .theEmail {
+			font-size: 10px !important;
+		}
 	}
 }

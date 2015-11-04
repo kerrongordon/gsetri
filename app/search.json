@@ -9,12 +9,12 @@
       "url"      : "{{ site.baseurl }}{{ post.url }}",
       "date"     : "{{ post.date }}",
       "author"   : "{{ post.author }}"
-    }, 
+    },
   {% endfor %}
 
   {% for page in site.pages %}
     {
-      "title"    : "{{ page.title | escape | replace: '-', ' ' | capitalize | remove: 'Events' | remove: '404' }}",
+      "title"    : "{{ page.title | escape | replace: '-', ' ' | capitalize | remove: 'Blog' | remove: '404' }}",
       "category" : "{{ page.category }}",
       "tags"     : "{{ page.tags | join: ', ' }}",
       "url"      : "{{ site.baseurl }}{{ page.url }}",
