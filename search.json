@@ -7,7 +7,7 @@
       "url"      : "/events/2015/10/12/the-day-wee-meet/",
       "date"     : "2015-10-12 00:00:00 -0400",
       "author"   : "Administrator"
-    }, 
+    },
   
     {
       "title"    : "Lorem ipsum is simply dummy text",
@@ -16,7 +16,7 @@
       "url"      : "/events/2015/10/10/ok-man-lets-go-with/",
       "date"     : "2015-10-10 00:00:00 -0400",
       "author"   : "Kylie Marker"
-    }, 
+    },
   
     {
       "title"    : "Survived not only five centuries",
@@ -25,7 +25,7 @@
       "url"      : "/events/2015/10/10/ok-man-lets-go/",
       "date"     : "2015-10-10 00:00:00 -0400",
       "author"   : "Kylie Marker"
-    }, 
+    },
   
     {
       "title"    : "Lorem ipsum is not simply random text",
@@ -34,7 +34,7 @@
       "url"      : "/events/2015/08/12/what-first-drew-you-to-the-web-industry/",
       "date"     : "2015-08-12 00:00:00 -0400",
       "author"   : "Kerron Bridge"
-    }, 
+    },
   
     {
       "title"    : "Lorem ipsum is not simply random text",
@@ -43,7 +43,7 @@
       "url"      : "/events/2015/08/12/what-first-drew-you-to-the-web/",
       "date"     : "2015-08-12 00:00:00 -0400",
       "author"   : "Kerron Bridge"
-    }, 
+    },
   
     {
       "title"    : "The internet tend to repeat",
@@ -52,7 +52,7 @@
       "url"      : "/events/2015/06/05/the-internet-tend-to-repeat/",
       "date"     : "2015-06-05 00:00:00 -0400",
       "author"   : "Administrator"
-    }, 
+    },
   
 
   
@@ -61,6 +61,24 @@
       "category" : "",
       "tags"     : "",
       "url"      : "/404/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/events/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Events",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/blog/",
       "date"     : "",
       "author"   : ""
     } ,
@@ -169,15 +187,6 @@
       "category" : "",
       "tags"     : "",
       "url"      : "/contact/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/events/",
       "date"     : "",
       "author"   : ""
     } ,
@@ -372,10 +381,10 @@
     } ,
   
     {
-      "title"    : "",
+      "title"    : "Events",
       "category" : "",
       "tags"     : "",
-      "url"      : "/events/page2/",
+      "url"      : "/blog/page2/",
       "date"     : "",
       "author"   : ""
     } 
