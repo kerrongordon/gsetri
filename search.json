@@ -4,7 +4,7 @@
       "title"    : "There are many variations of passages",
       "category" : "",
       "tags"     : "",
-      "url"      : "/events/2015/10/12/the-day-wee-meet/",
+      "url"      : "gsetri/events/2015/10/12/the-day-wee-meet/",
       "date"     : "2015-10-12 00:00:00 -0400",
       "author"   : "Administrator"
     },
@@ -13,7 +13,7 @@
       "title"    : "Lorem ipsum is simply dummy text",
       "category" : "",
       "tags"     : "",
-      "url"      : "/events/2015/10/10/ok-man-lets-go-with/",
+      "url"      : "gsetri/events/2015/10/10/ok-man-lets-go-with/",
       "date"     : "2015-10-10 00:00:00 -0400",
       "author"   : "Kylie Marker"
     },
@@ -22,7 +22,7 @@
       "title"    : "Survived not only five centuries",
       "category" : "",
       "tags"     : "",
-      "url"      : "/events/2015/10/10/ok-man-lets-go/",
+      "url"      : "gsetri/events/2015/10/10/ok-man-lets-go/",
       "date"     : "2015-10-10 00:00:00 -0400",
       "author"   : "Kylie Marker"
     },
@@ -31,7 +31,7 @@
       "title"    : "Lorem ipsum is not simply random text",
       "category" : "",
       "tags"     : "",
-      "url"      : "/events/2015/08/12/what-first-drew-you-to-the-web-industry/",
+      "url"      : "gsetri/events/2015/08/12/what-first-drew-you-to-the-web-industry/",
       "date"     : "2015-08-12 00:00:00 -0400",
       "author"   : "Kerron Bridge"
     },
@@ -40,7 +40,7 @@
       "title"    : "Lorem ipsum is not simply random text",
       "category" : "",
       "tags"     : "",
-      "url"      : "/events/2015/08/12/what-first-drew-you-to-the-web/",
+      "url"      : "gsetri/events/2015/08/12/what-first-drew-you-to-the-web/",
       "date"     : "2015-08-12 00:00:00 -0400",
       "author"   : "Kerron Bridge"
     },
@@ -49,7 +49,7 @@
       "title"    : "The internet tend to repeat",
       "category" : "",
       "tags"     : "",
-      "url"      : "/events/2015/06/05/the-internet-tend-to-repeat/",
+      "url"      : "gsetri/events/2015/06/05/the-internet-tend-to-repeat/",
       "date"     : "2015-06-05 00:00:00 -0400",
       "author"   : "Administrator"
     },
@@ -60,7 +60,7 @@
       "title"    : "",
       "category" : "",
       "tags"     : "",
-      "url"      : "/404/",
+      "url"      : "gsetri/404/",
       "date"     : "",
       "author"   : ""
     } ,
@@ -69,16 +69,7 @@
       "title"    : "",
       "category" : "",
       "tags"     : "",
-      "url"      : "/events/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Events",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/blog/",
+      "url"      : "gsetri/events/",
       "date"     : "",
       "author"   : ""
     } ,
@@ -87,295 +78,7 @@
       "title"    : "About",
       "category" : "",
       "tags"     : "",
-      "url"      : "/about/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Home",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Re projects",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/re-projects/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Education programs",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/education-programs/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Promotions and services",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/promotions-and-services/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Affiliates",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/affiliates/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Energy research product development and innovation",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/energy-research/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Renewable energy",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/renewable-energy/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Solar solution commercial and retail depo",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/solar-solution/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Projects",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Departments",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/departments/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Contact",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/contact/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Static electricity",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/energy-research/static-electricity/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Biomass and biogas power",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/energy-research/biomass-and-biogas-power/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Geothermal energy",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/energy-research/geothermal-energy/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Waste to energy power",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/energy-research/waste-to-energy-power/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Biological power",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/energy-research/biological-power/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Nuclear power",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/energy-research/nuclear-power/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Tidal power",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/energy-research/tidal-power/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "A photovoltaic power station",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/energy-research/photovoltaic/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Hydro power or water power",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/energy-research/hydro-power/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Wind power",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/energy-research/wind-power/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Cogeneration power",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/energy-research/cogeneration-power/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Agricultural solutions",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/solar-solution/agricultural-solutions/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Commercial applications",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/solar-solution/commercial-applications/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Home systems",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/solar-solution/home-systems/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Medical solutions",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/solar-solution/medical-solutions/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Government solutions",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/solar-solution/government-solutions/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Educational solutions",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/solar-solution/educational-solutions/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Catalogue links contacts",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/solar-solution/catalogue-links-contacts/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Transportation applications",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/solar-solution/transportation-applications/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "Informational technology",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/projects/solar-solution/informational-technology/",
-      "date"     : "",
-      "author"   : ""
-    } ,
-  
-    {
-      "title"    : "",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/search.json",
+      "url"      : "gsetri/about/",
       "date"     : "",
       "author"   : ""
     } ,
@@ -384,7 +87,304 @@
       "title"    : "Events",
       "category" : "",
       "tags"     : "",
-      "url"      : "/blog/page2/",
+      "url"      : "gsetri/blog/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Re projects",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "gsetri/projects/re-projects/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Education programs",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "gsetri/projects/education-programs/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Projects",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "gsetri/projects/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Promotions and services",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "gsetri/projects/promotions-and-services/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Solar solution commercial and retail depo",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "gsetri/projects/solar-solution/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Energy research product development and innovation",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "gsetri/projects/energy-research/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Affiliates",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "gsetri/projects/affiliates/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Renewable energy",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "gsetri/projects/renewable-energy/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Home",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "gsetri/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Departments",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "gsetri/departments/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Contact",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "gsetri/contact/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Informational technology",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "gsetri/projects/solar-solution/informational-technology/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Commercial applications",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "gsetri/projects/solar-solution/commercial-applications/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Government solutions",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "gsetri/projects/solar-solution/government-solutions/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Home systems",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "gsetri/projects/solar-solution/home-systems/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Educational solutions",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "gsetri/projects/solar-solution/educational-solutions/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Medical solutions",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "gsetri/projects/solar-solution/medical-solutions/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Agricultural solutions",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "gsetri/projects/solar-solution/agricultural-solutions/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Catalogue links contacts",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "gsetri/projects/solar-solution/catalogue-links-contacts/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Transportation applications",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "gsetri/projects/solar-solution/transportation-applications/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Wind power",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "gsetri/projects/energy-research/wind-power/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Cogeneration power",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "gsetri/projects/energy-research/cogeneration-power/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Tidal power",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "gsetri/projects/energy-research/tidal-power/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Waste to energy power",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "gsetri/projects/energy-research/waste-to-energy-power/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Biological power",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "gsetri/projects/energy-research/biological-power/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Hydro power or water power",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "gsetri/projects/energy-research/hydro-power/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Static electricity",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "gsetri/projects/energy-research/static-electricity/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Biomass and biogas power",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "gsetri/projects/energy-research/biomass-and-biogas-power/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Geothermal energy",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "gsetri/projects/energy-research/geothermal-energy/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Nuclear power",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "gsetri/projects/energy-research/nuclear-power/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "A photovoltaic power station",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "gsetri/projects/energy-research/photovoltaic/",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "gsetri/search.json",
+      "date"     : "",
+      "author"   : ""
+    } ,
+  
+    {
+      "title"    : "Events",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "gsetri/blog/page2/",
       "date"     : "",
       "author"   : ""
     } 
