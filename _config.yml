@@ -24,7 +24,7 @@ permalink: pretty
 # _config.build.yml sets future and show_drafts to false on `grunt build`
 future: true
 show_drafts: true
-baseurl: ''  #/gsetri-website
+baseurl: 'gsetri'  #/gsetri-website
 
 # Markdown library
 markdown: redcarpet
